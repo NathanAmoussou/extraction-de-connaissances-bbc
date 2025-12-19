@@ -1,0 +1,1 @@
+{"entities": [{"mention": "ericsson", "type": "ORG", "start": 453, "end": 461}, {"mention": "dr michael bjorn", "type": "PERSON", "start": 550, "end": 566}, {"mention": "bbc news website", "type": "PRODUCT", "start": 856, "end": 872}, {"mention": "japan", "type": "GPE", "start": 2704, "end": 2709}, {"mention": "uk", "type": "GPE", "start": 3044, "end": 3046}], "relations": []}

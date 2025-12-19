@@ -1,0 +1,3003 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+
+<http://example.org/article/1022> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1022" ;
+    schema1:about <http://example.org/entity/org/apple_3fb9a81f1d5a>,
+        <http://example.org/entity/org/coral_consortium_fbbda92d5bd1>,
+        <http://example.org/entity/org/electronic_frontier_foundation_33bf864703c7>,
+        <http://example.org/entity/org/intertrust_c4cf0f16b6b9>,
+        <http://example.org/entity/org/jupiter_research_5a7305fc482a>,
+        <http://example.org/entity/org/matsushita_e4f64fd10115>,
+        <http://example.org/entity/org/microsoft_3d717ffe6ee4>,
+        <http://example.org/entity/org/philips_6549c68c00c4>,
+        <http://example.org/entity/org/samsung_558d7e5f2f3b>,
+        <http://example.org/entity/org/sony_d10b6a27d1d7> .
+
+<http://example.org/article/1029> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1029" ;
+    schema1:about <http://example.org/entity/event/halo_2_268b297e6d5b>,
+        <http://example.org/entity/org/electronic_arts_0c21a9a0b79f>,
+        <http://example.org/entity/org/microsoft_3d717ffe6ee4>,
+        <http://example.org/entity/org/nintendo_f31ffe418b71>,
+        <http://example.org/entity/org/sony_d10b6a27d1d7>,
+        <http://example.org/entity/person/bill_gates_c4903a5146d3>,
+        <http://example.org/entity/product/playstation_3_9df1869c9755>,
+        <http://example.org/entity/product/xbox_68e6f484b95d>,
+        <http://example.org/entity/product/xenon_816a9008c9ef> .
+
+<http://example.org/article/1045> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1045" ;
+    schema1:about <http://example.org/entity/org/centr_c73723c02221>,
+        <http://example.org/entity/org/ukif_eb9e638b6966>,
+        <http://example.org/entity/org/verisign_eb40e46951ca>,
+        <http://example.org/entity/person/stephen_dyer_6f2f7fd732e6>,
+        <http://example.org/entity/product/paypal_537b8ec6f5c1> .
+
+<http://example.org/article/1091> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1091" ;
+    schema1:about <http://example.org/entity/gpe/tate_britain_92a40f3a8eb2>,
+        <http://example.org/entity/org/british_telecom_60a1c616502f>,
+        <http://example.org/entity/person/jemima_rellie_8d234701430e>,
+        <http://example.org/entity/person/richard_tateson_db0dc4e90b21>,
+        <http://example.org/entity/product/artgarden_20fd63888146> .
+
+<http://example.org/article/1098> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1098" ;
+    schema1:about <http://example.org/entity/org/ask_jeeves_7bf3fc2d1343>,
+        <http://example.org/entity/org/google_772d46fce4cd>,
+        <http://example.org/entity/org/msn_ae9d5e00dd68>,
+        <http://example.org/entity/org/pyra_labs_ef96472b231a>,
+        <http://example.org/entity/org/yahoo_2799769f9a78>,
+        <http://example.org/entity/person/jim_lanzone_0cd450e545b2>,
+        <http://example.org/entity/product/blogger_7dcd79065f74>,
+        <http://example.org/entity/product/bloglines_b2941453db6e> .
+
+<http://example.org/article/1147> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1147" ;
+    schema1:about <http://example.org/entity/org/bafta_1be1b0e37845>,
+        <http://example.org/entity/org/bbc_2ee757668781>,
+        <http://example.org/entity/org/national_theatre_2f5d77977591>,
+        <http://example.org/entity/org/warner_bros_6ea8afc8f454>,
+        <http://example.org/entity/person/alexander_mcqueen_85b5c1e14d63>,
+        <http://example.org/entity/person/grant_dean_85f1b1689fd4>,
+        <http://example.org/entity/product/half_life_2_c85c750cf36c>,
+        <http://example.org/entity/product/sseyo_minimixa_f8167479c147> .
+
+<http://example.org/article/1164> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1164" ;
+    schema1:about <http://example.org/entity/event/bbc_news_website_be214b621ab4>,
+        <http://example.org/entity/org/british_telecom_60a1c616502f>,
+        <http://example.org/entity/org/icstis_fbcb2d9e0ca0>,
+        <http://example.org/entity/person/gavin_patterson_b2bf5309cbf2> .
+
+<http://example.org/article/1182> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1182" ;
+    schema1:about <http://example.org/entity/org/apple_3fb9a81f1d5a>,
+        <http://example.org/entity/org/dell_f2827276f0a7>,
+        <http://example.org/entity/org/mac_format_e68c74f9b4af>,
+        <http://example.org/entity/person/ian_harris_ddb892d8b883>,
+        <http://example.org/entity/person/steve_jobs_c5375b9ff8a3>,
+        <http://example.org/entity/product/ipod_shuffle_c7f9f0cae6a7>,
+        <http://example.org/entity/product/mac_mini_dc2f7507e348> .
+
+<http://example.org/article/1185> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1185" ;
+    schema1:about <http://example.org/entity/gpe/omaha_ab478123da5e>,
+        <http://example.org/entity/org/bbc_2ee757668781>,
+        <http://example.org/entity/org/ebay_3b34ed95dc86>,
+        <http://example.org/entity/person/andrew_fisher_65e87bdc1ab8> .
+
+<http://example.org/article/1190> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1190" ;
+    schema1:about <http://example.org/entity/org/british_telecom_60a1c616502f>,
+        <http://example.org/entity/org/icstis_fbcb2d9e0ca0>,
+        <http://example.org/entity/person/elizabeth_france_d00f49091e07>,
+        <http://example.org/entity/person/gavin_patterson_b2bf5309cbf2>,
+        <http://example.org/entity/person/rob_dwight_9e5c65bd72d9>,
+        <http://example.org/entity/product/avg_5e4a0f39a3b0>,
+        <http://example.org/entity/product/zonealarm_d534dc1a07c0> .
+
+<http://example.org/article/1194> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1194" ;
+    schema1:about <http://example.org/entity/event/ces_56a3686242f0>,
+        <http://example.org/entity/event/gadget_market_6f51d606ac63>,
+        <http://example.org/entity/org/consumer_electronics_association_22a401eeb796>,
+        <http://example.org/entity/org/microsoft_3d717ffe6ee4>,
+        <http://example.org/entity/org/samsung_558d7e5f2f3b>,
+        <http://example.org/entity/org/seagate_87baa8eb5f11>,
+        <http://example.org/entity/org/sony_d10b6a27d1d7>,
+        <http://example.org/entity/person/bill_gates_c4903a5146d3>,
+        <http://example.org/entity/person/kirsten_pfeifer_ec5336b5c32c>,
+        <http://example.org/entity/product/bbc_news_website_e114581d8927>,
+        <http://example.org/entity/product/digital_cameras_60aa922e8ad0>,
+        <http://example.org/entity/product/digital_radio_b9ff7cb46f5a>,
+        <http://example.org/entity/product/hdtvs_9eebf0acfee4>,
+        <http://example.org/entity/product/psp_34030a085f6e>,
+        <http://example.org/entity/product/xbox_games_console_cdfc6d1bd3b1> .
+
+<http://example.org/article/1266> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1266" ;
+    schema1:about <http://example.org/entity/org/microsoft_3d717ffe6ee4>,
+        <http://example.org/entity/org/mozilla_8569b3d2381d>,
+        <http://example.org/entity/org/netscape_9c73568f9fe6>,
+        <http://example.org/entity/org/onestat_com_d65493c03f82>,
+        <http://example.org/entity/org/websidestory_60dc83d7f53a>,
+        <http://example.org/entity/person/niels_brinkman_1b24ca4d6eeb>,
+        <http://example.org/entity/person/paul_randle_9a715175a46c>,
+        <http://example.org/entity/product/firefox_d75723c827db>,
+        <http://example.org/entity/product/internet_explorer_c4c2abe0f12c> .
+
+<http://example.org/article/1326> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1326" ;
+    schema1:about <http://example.org/entity/org/ask_jeeves_7bf3fc2d1343>,
+        <http://example.org/entity/org/google_772d46fce4cd>,
+        <http://example.org/entity/org/msn_ae9d5e00dd68>,
+        <http://example.org/entity/org/pyra_labs_ef96472b231a>,
+        <http://example.org/entity/org/yahoo_2799769f9a78>,
+        <http://example.org/entity/person/jim_lanzone_0cd450e545b2>,
+        <http://example.org/entity/product/blogger_7dcd79065f74>,
+        <http://example.org/entity/product/bloglines_b2941453db6e> .
+
+<http://example.org/article/1358> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1358" ;
+    schema1:about <http://example.org/entity/event/goldeneye_a7eb7417b01e>,
+        <http://example.org/entity/org/mi6_ff9819ac115c>,
+        <http://example.org/entity/person/auric_goldfinger_110d9c5fb39e>,
+        <http://example.org/entity/person/dr_no_7df12788dc9e>,
+        <http://example.org/entity/person/james_bond_05c00133acb7>,
+        <http://example.org/entity/person/oddjob_c7f58d97f0fc>,
+        <http://example.org/entity/person/tina_turner_b9d50dd02b66>,
+        <http://example.org/entity/person/xenia_onatopp_fadab69b3623> .
+
+<http://example.org/article/136> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 136" ;
+    schema1:about <http://example.org/entity/event/digital_tv_lifestyle_f6df2eda450c>,
+        <http://example.org/entity/gpe/europe_feddc61b2704>,
+        <http://example.org/entity/person/simon_perry_c32f64e2ea81> .
+
+<http://example.org/article/1383> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1383" ;
+    schema1:about <http://example.org/entity/event/once_upon_a_time_in_mexico_05b05cf87320>,
+        <http://example.org/entity/event/rambo_first_blood_8e2e400902ab>,
+        <http://example.org/entity/event/resident_evil_apocalypse_c560504b5428>,
+        <http://example.org/entity/event/spider_man_2_a7a5a7421d71>,
+        <http://example.org/entity/event/total_recall_833d25fd0194>,
+        <http://example.org/entity/org/lions_gate_entertainment_e79815b149a3>,
+        <http://example.org/entity/org/sony_d10b6a27d1d7>,
+        <http://example.org/entity/person/steve_beeks_2beb4c601a5f>,
+        <http://example.org/entity/product/hellboy_c26a3e8ea10a>,
+        <http://example.org/entity/product/house_of_the_dead_f19e5fe17463>,
+        <http://example.org/entity/product/the_punisher_b2a37826096e>,
+        <http://example.org/entity/product/xxx_c6c047f042a2> .
+
+<http://example.org/article/1394> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1394" ;
+    schema1:about <http://example.org/entity/event/gormenghast_f63cd6f60f71>,
+        <http://example.org/entity/event/new_media_for_a_new_millennium_nm2_19e274160bbf>,
+        <http://example.org/entity/org/bbc_2ee757668781>,
+        <http://example.org/entity/org/british_telecom_60a1c616502f>,
+        <http://example.org/entity/org/european_union_d99c115708c1>,
+        <http://example.org/entity/person/doug_williams_a82578e6e384>,
+        <http://example.org/entity/person/john_wyver_ed7c19ef6f70>,
+        <http://example.org/entity/person/mervyn_peake_a9fc09ca8e69>,
+        <http://example.org/entity/person/peter_stollenmayer_e4d49186da2d>,
+        <http://example.org/entity/product/cctv_9254e39727d3> .
+
+<http://example.org/article/1395> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1395" ;
+    schema1:about <http://example.org/entity/org/clearswift_4e7e65748b2d>,
+        <http://example.org/entity/org/mirapoint_550d6ee96a8b>,
+        <http://example.org/entity/org/sophos_576613a10110>,
+        <http://example.org/entity/org/the_radicati_group_7723a06b3293>,
+        <http://example.org/entity/person/alyn_hockey_63acba584fc9>,
+        <http://example.org/entity/person/graham_cluley_57acda9a11ed>,
+        <http://example.org/entity/person/marcel_nienhuis_569b6a8b365e> .
+
+<http://example.org/article/1401> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1401" ;
+    schema1:about <http://example.org/entity/gpe/germany_58c9acdd4350>,
+        <http://example.org/entity/gpe/poland_03bcb80ddd29>,
+        <http://example.org/entity/org/dutch_government_58934ce19689>,
+        <http://example.org/entity/org/eolas_588bb545e65b>,
+        <http://example.org/entity/org/european_union_d99c115708c1>,
+        <http://example.org/entity/person/bill_thompson_de621c83bb43>,
+        <http://example.org/entity/product/amazon_013651415001>,
+        <http://example.org/entity/product/apache_web_server_02c5ca85cb3f>,
+        <http://example.org/entity/product/firefox_browser_bc195a5af898>,
+        <http://example.org/entity/product/gnu_linux_operating_system_8c046323ff87>,
+        <http://example.org/entity/product/microsoft_709b85e49d62> .
+
+<http://example.org/article/1412> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1412" ;
+    schema1:about <http://example.org/entity/org/arbor_networks_d777f7dd1e6e>,
+        <http://example.org/entity/org/bell_canada_f9697aebf08a>,
+        <http://example.org/entity/org/british_telecom_60a1c616502f>,
+        <http://example.org/entity/org/deutsche_telekom_5e3c9f45769c>,
+        <http://example.org/entity/org/energis_d6a95c494b1b>,
+        <http://example.org/entity/org/firms_60b23849f159>,
+        <http://example.org/entity/org/mci_2e913f614dc0>,
+        <http://example.org/entity/org/ntt_83cc628c148d>,
+        <http://example.org/entity/person/malcolm_seagrave_6b1d8cbd678f>,
+        <http://example.org/entity/person/rob_pollard_2c4c4803c6e6>,
+        <http://example.org/entity/product/net_6ac1d770871b> .
+
+<http://example.org/article/1434> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1434" ;
+    schema1:about <http://example.org/entity/org/british_telecom_60a1c616502f>,
+        <http://example.org/entity/org/royal_society_9a186c92a127>,
+        <http://example.org/entity/person/baroness_susan_greenfield_aed9af33ce85>,
+        <http://example.org/entity/person/ian_pearson_9bff8cc9c67e> .
+
+<http://example.org/article/1439> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1439" ;
+    schema1:about <http://example.org/entity/org/earthlink_a82a786420cc>,
+        <http://example.org/entity/org/mcafee_dc39adedb884>,
+        <http://example.org/entity/org/microsoft_3d717ffe6ee4>,
+        <http://example.org/entity/org/symantec_956917283805>,
+        <http://example.org/entity/org/trend_micro_ce38e7894065>,
+        <http://example.org/entity/org/webroot_ccacace40571> .
+
+<http://example.org/article/1468> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1468" ;
+    schema1:about <http://example.org/entity/gpe/us_713677424dd1>,
+        <http://example.org/entity/org/atari_89acab74ce3d>,
+        <http://example.org/entity/org/commodore_e930b4f64460>,
+        <http://example.org/entity/org/commodore_international_13e81aa04a13>,
+        <http://example.org/entity/org/tulip_computers_889c29aaff11>,
+        <http://example.org/entity/org/yeahronimo_media_ventures_6473551a8d42> .
+
+<http://example.org/article/150> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 150" ;
+    schema1:about <http://example.org/entity/org/alcatel_8be7dfaf4275>,
+        <http://example.org/entity/org/o2_ddc520955a4f>,
+        <http://example.org/entity/org/orange_0fcc3e58ab93>,
+        <http://example.org/entity/org/t_mobile_ce5b498c419d>,
+        <http://example.org/entity/org/vodafone_1e880c10ba80>,
+        <http://example.org/entity/person/bob_larribeau_b54ef462ecb9>,
+        <http://example.org/entity/person/niel_ransom_d21ece7ced30> .
+
+<http://example.org/article/1515> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1515" ;
+    schema1:about <http://example.org/entity/event/astro_wars_a399b43035e3>,
+        <http://example.org/entity/event/computer_games_8c4cad778638>,
+        <http://example.org/entity/event/madonna_s_like_a_virgin_1ccafbfe4c5f>,
+        <http://example.org/entity/org/apple_3fb9a81f1d5a>,
+        <http://example.org/entity/org/diamond_multimedia_e243a1eab1db>,
+        <http://example.org/entity/org/us_magazine_mobile_pc_938e162a2aa3>,
+        <http://example.org/entity/person/karl_elsener_4e68abf99981>,
+        <http://example.org/entity/person/madonna_3ec52c707c20>,
+        <http://example.org/entity/product/abacus_78216271ff70>,
+        <http://example.org/entity/product/apple_ipod_0b01e30519b6>,
+        <http://example.org/entity/product/apple_newton_e4e132bcdd8e>,
+        <http://example.org/entity/product/apple_powerbook_100_da57bebb8b5e>,
+        <http://example.org/entity/product/ball_point_pen_7781f90e3c66>,
+        <http://example.org/entity/product/breville_pie_maker_e37846a2cc96>,
+        <http://example.org/entity/product/casio_qv_10_c007e29c2817>,
+        <http://example.org/entity/product/cdp_101_cd_player_6f9597b818d1>,
+        <http://example.org/entity/product/clockwork_radio_95d705c661e2>,
+        <http://example.org/entity/product/gps_114df23cf996>,
+        <http://example.org/entity/product/kodak_brownie_camera_ea1c97048c1b>,
+        <http://example.org/entity/product/laptop_b40751ccbca2>,
+        <http://example.org/entity/product/marine_chronometer_66b15cfbd02b>,
+        <http://example.org/entity/product/mobile_phone_ce4f0482e2a4>,
+        <http://example.org/entity/product/motorola_startac_2d8ffe4818af>,
+        <http://example.org/entity/product/noteboook_pc_cee7ac4cfb68>,
+        <http://example.org/entity/product/palm_pilot_9305d64e7c9a>,
+        <http://example.org/entity/product/pez_sweet_dispenser_228718057351>,
+        <http://example.org/entity/product/pocket_calculator_6810b07ac9ef>,
+        <http://example.org/entity/product/powerbook_511c1c4f128a>,
+        <http://example.org/entity/product/psion_organiser_series_3_2fc89be54a81>,
+        <http://example.org/entity/product/ronco_inside_the_shell_egg_scrambler_b3d3e450f0e7>,
+        <http://example.org/entity/product/safety_razor_blade_e0bd68799458>,
+        <http://example.org/entity/product/sextant_73df5257b120>,
+        <http://example.org/entity/product/sinclair_executive_0d7a8fab4753>,
+        <http://example.org/entity/product/sinclair_ql_7627584dd408>,
+        <http://example.org/entity/product/soda_stream_301c8336bdf6>,
+        <http://example.org/entity/product/sony_transistor_radio_d82334d58446>,
+        <http://example.org/entity/product/sony_walkman_70e5813b11f7>,
+        <http://example.org/entity/product/swiss_army_knife_877928ad02ef>,
+        <http://example.org/entity/product/tamagotchi_e1a621fb13e8>,
+        <http://example.org/entity/product/tandy_100_ae499a65b30d>,
+        <http://example.org/entity/product/tin_opener_94b4139e2902>,
+        <http://example.org/entity/product/tivo_personal_video_recorder_3277c2b0ac37>,
+        <http://example.org/entity/product/toshiba_libretto_8397f18f604e>,
+        <http://example.org/entity/product/vulcan_inc_s_flipstart_efdf1e947c7a>,
+        <http://example.org/entity/product/wristwatch_1c51cca93ed4>,
+        <http://example.org/entity/product/zenith_remote_control_fda44bc336ee> .
+
+<http://example.org/article/1532> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1532" ;
+    schema1:about <http://example.org/entity/event/longhorn_a53769a636df>,
+        <http://example.org/entity/event/rsa_security_conference_17d90806ab6d>,
+        <http://example.org/entity/org/google_772d46fce4cd>,
+        <http://example.org/entity/org/microsoft_3d717ffe6ee4>,
+        <http://example.org/entity/person/bill_gates_c4903a5146d3>,
+        <http://example.org/entity/product/firefox_d75723c827db>,
+        <http://example.org/entity/product/ie7_b72dd6300d7e>,
+        <http://example.org/entity/product/internet_explorer_c4c2abe0f12c> .
+
+<http://example.org/article/1550> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1550" ;
+    schema1:about <http://example.org/entity/gpe/cambridge_47802d917282>,
+        <http://example.org/entity/org/apple_3fb9a81f1d5a>,
+        <http://example.org/entity/org/bbc_2ee757668781>,
+        <http://example.org/entity/org/intel_8208f69ab4b9>,
+        <http://example.org/entity/person/bill_thompson_de621c83bb43> .
+
+<http://example.org/article/1552> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1552" ;
+    schema1:about <http://example.org/entity/gpe/japan_569cd1db6746>,
+        <http://example.org/entity/gpe/south_korea_a9abca761346>,
+        <http://example.org/entity/org/pantech_303982044f06>,
+        <http://example.org/entity/org/sega_a1ad7cbbfe14>,
+        <http://example.org/entity/org/sharp_1bfaae780a0c>,
+        <http://example.org/entity/org/vodafone_1e880c10ba80> .
+
+<http://example.org/article/1553> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1553" ;
+    schema1:about <http://example.org/entity/event/boingboing_weblog_6a96b170cfb2>,
+        <http://example.org/entity/org/bush_cheney_campaign_3959f27f7084>,
+        <http://example.org/entity/org/netcraft_f3c010bec585>,
+        <http://example.org/entity/person/george_w_bush_3b52adce89e4>,
+        <http://example.org/entity/person/scott_stanzel_f00bb0e256a6>,
+        <http://example.org/entity/product/akamai_95fb3282e181> .
+
+<http://example.org/article/1557> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1557" ;
+    schema1:about <http://example.org/entity/gpe/poland_03bcb80ddd29>,
+        <http://example.org/entity/org/amazon_com_0c153c498fb6>,
+        <http://example.org/entity/org/european_parliament_b3f44aa17b36>,
+        <http://example.org/entity/org/juri_9b4169cb39ec> .
+
+<http://example.org/article/1680> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1680" ;
+    schema1:about <http://example.org/entity/gpe/fbi_gov_30b27f5d7e4c>,
+        <http://example.org/entity/org/fbi_0f79c3921b9d>,
+        <http://example.org/entity/org/fbi_s_internet_fraud_complaint_center_b9205c0b98a9>,
+        <http://example.org/entity/org/us_federal_bureau_of_investigation_e57be47d798e> .
+
+<http://example.org/article/1725> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1725" ;
+    schema1:about <http://example.org/entity/event/cpl_world_tour_9ea5f2c81120>,
+        <http://example.org/entity/gpe/uk_gamers_d0fe1e2f6d61>,
+        <http://example.org/entity/org/cyberathlete_professional_league_4e6ed1444da9>,
+        <http://example.org/entity/org/four_kings_clan_ea815bd85987>,
+        <http://example.org/entity/person/philip_wride_72bfbf229252>,
+        <http://example.org/entity/person/simon_bysshe_9333087949ea>,
+        <http://example.org/entity/product/painkiller_game_c831defaac27> .
+
+<http://example.org/article/1733> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1733" ;
+    schema1:about <http://example.org/entity/org/3_517a83f2d5ff>,
+        <http://example.org/entity/org/eutelsat_256a090d0589>,
+        <http://example.org/entity/org/gartner_3f82483c3d64>,
+        <http://example.org/entity/org/instat_mdr_c04ce601b7d7>,
+        <http://example.org/entity/org/jupiter_c26ed6e4d0a7>,
+        <http://example.org/entity/org/norwegian_broadcasting_corporation_87421d04d1f1>,
+        <http://example.org/entity/org/orange_0fcc3e58ab93>,
+        <http://example.org/entity/org/tim_cbc08a112268>,
+        <http://example.org/entity/person/thomas_husson_eafc5a7a0093>,
+        <http://example.org/entity/product/apple_debacdb0da21>,
+        <http://example.org/entity/product/itunes_cc270f68b019>,
+        <http://example.org/entity/product/napster_5b4dce7ff535>,
+        <http://example.org/entity/product/nokia_c832ded63781>,
+        <http://example.org/entity/product/sonyericsson_0241ef64e8a8>,
+        <http://example.org/entity/product/tivo_da6e4f4b1026> .
+
+<http://example.org/article/1742> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1742" ;
+    schema1:about <http://example.org/entity/org/leadplex_inc_3ef3ac545006>,
+        <http://example.org/entity/org/leadplex_llc_7e60acaef250>,
+        <http://example.org/entity/org/payperaction_llc_b5f59d4781eb>,
+        <http://example.org/entity/org/us_federal_trade_commission_ftc_0aa0eaa54baf>,
+        <http://example.org/entity/person/greg_abbott_d585fc013012>,
+        <http://example.org/entity/person/lin_hughes_6e38c6b5241b>,
+        <http://example.org/entity/person/mark_stephen_trotter_1593a899f2da>,
+        <http://example.org/entity/person/ryan_samuel_pitylak_fa01dcf75895> .
+
+<http://example.org/article/1756> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1756" ;
+    schema1:about <http://example.org/entity/person/bill_gates_c4903a5146d3>,
+        <http://example.org/entity/product/halo_2_4a69c7c99241>,
+        <http://example.org/entity/product/metal_slug_be617a8ff853> .
+
+<http://example.org/article/1847> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1847" ;
+    schema1:about <http://example.org/entity/gpe/hong_kong_3057bff45cae>,
+        <http://example.org/entity/org/bbc_news_website_4b58c1e05810>,
+        <http://example.org/entity/org/cornell_university_8e2ca85412d9>,
+        <http://example.org/entity/person/victor_wong_62db44d68899> .
+
+<http://example.org/article/1855> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1855" ;
+    schema1:about <http://example.org/entity/org/hitachi_5a71cea0f888>,
+        <http://example.org/entity/org/honda_4fd8a96e9762>,
+        <http://example.org/entity/org/sony_d10b6a27d1d7>,
+        <http://example.org/entity/person/chum_313938edfe1c>,
+        <http://example.org/entity/person/pal_aa5286387342>,
+        <http://example.org/entity/person/tosihiko_horiuchi_155ad11be91d>,
+        <http://example.org/entity/product/asimo_8607ace33e8b>,
+        <http://example.org/entity/product/emiew_0198e2e49424>,
+        <http://example.org/entity/product/qrio_65dd29feb27c> .
+
+<http://example.org/article/1894> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1894" ;
+    schema1:about <http://example.org/entity/org/nokia_a7883acd7071>,
+        <http://example.org/entity/org/virgin_radio_2b68c9c8c75c>,
+        <http://example.org/entity/person/reidar_wasenius_b7831341e6a6>,
+        <http://example.org/entity/person/steve_taylor_77e6950e1b7f>,
+        <http://example.org/entity/product/dab_1f3f841e5768>,
+        <http://example.org/entity/product/fm_050476be5c25> .
+
+<http://example.org/article/1912> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1912" ;
+    schema1:about <http://example.org/entity/org/bullfrog_studios_99a7b8411287>,
+        <http://example.org/entity/org/lionhead_studios_b99783d047c5>,
+        <http://example.org/entity/person/peter_molyneux_3b56f4e4c2e2> .
+
+<http://example.org/article/1951> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1951" ;
+    schema1:about <http://example.org/entity/event/lord_of_the_rings_cf6086cd8a13>,
+        <http://example.org/entity/event/troy_b3700aebfce0>,
+        <http://example.org/entity/gpe/pompeii_d1383631d63e>,
+        <http://example.org/entity/org/2d3_12357a40e83b>,
+        <http://example.org/entity/org/european_union_d99c115708c1>,
+        <http://example.org/entity/org/miralab_06a0e5f506c6>,
+        <http://example.org/entity/person/andrew_stoddart_7c4a33dc2ce5>,
+        <http://example.org/entity/person/nadia_magnenat_thalman_672ec033ddaa> .
+
+<http://example.org/article/1968> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1968" ;
+    schema1:about <http://example.org/entity/org/mit_media_labs_europe_2b02456dfbfc>,
+        <http://example.org/entity/org/new_york_state_department_of_health_ec07bf00f567>,
+        <http://example.org/entity/org/state_university_of_new_york_in_albany_d2ab0e8e1c33>,
+        <http://example.org/entity/person/dennis_mcfarlane_9e17710b3db1>,
+        <http://example.org/entity/person/jonathan_wolpaw_25593c166321> .
+
+<http://example.org/article/1976> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1976" ;
+    schema1:about <http://example.org/entity/gpe/japan_569cd1db6746>,
+        <http://example.org/entity/gpe/uk_fb7612b0df91>,
+        <http://example.org/entity/org/ericsson_d3c061ca45a6>,
+        <http://example.org/entity/person/dr_michael_bjorn_92353f450bf9>,
+        <http://example.org/entity/product/bbc_news_website_e114581d8927> .
+
+<http://example.org/article/1977> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1977" ;
+    schema1:about <http://example.org/entity/org/emi_aeaef04669e3>,
+        <http://example.org/entity/org/microsoft_3d717ffe6ee4>,
+        <http://example.org/entity/org/motorola_f8cdcf80b8e9>,
+        <http://example.org/entity/org/musiwave_269885b5f689>,
+        <http://example.org/entity/org/nokia_a7883acd7071>,
+        <http://example.org/entity/org/sony_ericsson_bdafd6ff7dc1>,
+        <http://example.org/entity/person/gilles_babinet_ed8389eed350>,
+        <http://example.org/entity/person/jonas_guest_428e71e9ae53>,
+        <http://example.org/entity/person/ted_cohen_d029ce736c95> .
+
+<http://example.org/article/1981> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 1981" ;
+    schema1:about <http://example.org/entity/event/3gsm_aed17450ed1e>,
+        <http://example.org/entity/gpe/cannes_53917259374d>,
+        <http://example.org/entity/org/nomad_digital_afbebc1db7ff>,
+        <http://example.org/entity/org/southern_trains_e3bcf8527e51>,
+        <http://example.org/entity/org/t_mobile_ce5b498c419d>,
+        <http://example.org/entity/person/brian_mcbride_cfe26ee10dfc>,
+        <http://example.org/entity/person/rene_obermann_2aa2852f09f2>,
+        <http://example.org/entity/product/pocket_office_14683723fdbf> .
+
+<http://example.org/article/2017> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 2017" ;
+    schema1:about <http://example.org/entity/event/bbc_news_website_be214b621ab4>,
+        <http://example.org/entity/event/indiana_jones_7b0681dd490a>,
+        <http://example.org/entity/event/nemo_fa8597144c07>,
+        <http://example.org/entity/org/hollywood_042a6094d422>,
+        <http://example.org/entity/org/thx_371e24c4ca40>,
+        <http://example.org/entity/person/rick_dean_7955bf980b03>,
+        <http://example.org/entity/product/star_wars_dvd_trilogy_ae5095c56893> .
+
+<http://example.org/article/2042> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 2042" ;
+    schema1:about <http://example.org/entity/org/f_secure_c76f7d13ec5e>,
+        <http://example.org/entity/org/sophos_576613a10110>,
+        <http://example.org/entity/person/mikko_hypponen_0ca1de427c41>,
+        <http://example.org/entity/product/microsoft_outlook_09ff54c22734>,
+        <http://example.org/entity/product/zafi_d_a38cff04289b> .
+
+<http://example.org/article/2044> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 2044" ;
+    schema1:about <http://example.org/entity/org/google_772d46fce4cd>,
+        <http://example.org/entity/org/microsoft_3d717ffe6ee4>,
+        <http://example.org/entity/org/yahoo_2799769f9a78>,
+        <http://example.org/entity/person/urs_holzle_1680fb4cf80d>,
+        <http://example.org/entity/person/yonca_brunini_cac89b868a9d> .
+
+<http://example.org/article/2076> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 2076" ;
+    schema1:about <http://example.org/entity/gpe/bodleian_library_598dad60d8c1>,
+        <http://example.org/entity/gpe/michigan_university_a0637c4eff5b>,
+        <http://example.org/entity/gpe/new_york_public_library_d0478fb14342>,
+        <http://example.org/entity/gpe/stanford_university_181c0def459d>,
+        <http://example.org/entity/org/google_772d46fce4cd>,
+        <http://example.org/entity/org/harvard_05cb67bd9d81>,
+        <http://example.org/entity/org/oxford_d101ee483f8c>,
+        <http://example.org/entity/person/john_wilkin_3a02902c8b9e>,
+        <http://example.org/entity/person/paul_leclerc_5b95bb3b2040>,
+        <http://example.org/entity/person/susan_wojcicki_78000ea8a6ab>,
+        <http://example.org/entity/product/amazon_013651415001> .
+
+<http://example.org/article/2077> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 2077" ;
+    schema1:about <http://example.org/entity/org/apple_3fb9a81f1d5a>,
+        <http://example.org/entity/org/gartner_3f82483c3d64>,
+        <http://example.org/entity/org/motorola_f8cdcf80b8e9>,
+        <http://example.org/entity/org/sony_ericsson_bdafd6ff7dc1>,
+        <http://example.org/entity/person/carolina_milanesi_396a02ac4237> .
+
+<http://example.org/article/2086> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 2086" ;
+    schema1:about <http://example.org/entity/org/bbc_news_7b256a0736ee>,
+        <http://example.org/entity/org/digital_bridges_f73fca573d70>,
+        <http://example.org/entity/org/macrospace_be4ba8d63005>,
+        <http://example.org/entity/org/nokia_a7883acd7071>,
+        <http://example.org/entity/product/bejewelled_b3811411c8f1>,
+        <http://example.org/entity/product/colin_mcrae_rally_ba08d18e6cbc>,
+        <http://example.org/entity/product/fatal_force_164d41aacf1a>,
+        <http://example.org/entity/product/gameboy_d894f427f736>,
+        <http://example.org/entity/product/lunar_lander_7a768353d40f>,
+        <http://example.org/entity/product/n_gage_60f544f44b4a>,
+        <http://example.org/entity/product/snake_aa53a613564e>,
+        <http://example.org/entity/product/space_invaders_c1086f31e9fe>,
+        <http://example.org/entity/product/too_fast_too_furious_f900c19658bc> .
+
+<http://example.org/article/2116> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 2116" ;
+    schema1:about <http://example.org/entity/event/mobile_equipment_national_database_889e8220b753>,
+        <http://example.org/entity/gpe/london_0d453f931bb5>,
+        <http://example.org/entity/org/black_cabs_88e915be5a85>,
+        <http://example.org/entity/org/pointsec_d1939a461e1c>,
+        <http://example.org/entity/person/hugh_grant_27c7d2c40310>,
+        <http://example.org/entity/person/jemima_khan_cae6db0a6066>,
+        <http://example.org/entity/product/retrofone_ff2c27253081> .
+
+<http://example.org/article/2131> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 2131" ;
+    schema1:about <http://example.org/entity/event/2001_b0a7622e27c6>,
+        <http://example.org/entity/event/2004_fe54db180abb>,
+        <http://example.org/entity/org/ibm_b3ecc2949f49>,
+        <http://example.org/entity/product/linux_a07f27995032> .
+
+<http://example.org/article/2133> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 2133" ;
+    schema1:about <http://example.org/entity/org/electronic_arts_0c21a9a0b79f>,
+        <http://example.org/entity/org/microsoft_3d717ffe6ee4>,
+        <http://example.org/entity/org/nintendo_f31ffe418b71>,
+        <http://example.org/entity/org/sony_d10b6a27d1d7>,
+        <http://example.org/entity/person/bill_gates_c4903a5146d3>,
+        <http://example.org/entity/person/gary_dunn_9108de85e6be>,
+        <http://example.org/entity/person/gerhard_florin_976ee89459b4>,
+        <http://example.org/entity/person/rory_armes_7347fcb03182>,
+        <http://example.org/entity/person/simon_gardner_8b256fd3c19d>,
+        <http://example.org/entity/product/playstation_3_9df1869c9755>,
+        <http://example.org/entity/product/xbox_2_826eebfadb3a> .
+
+<http://example.org/article/2144> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 2144" ;
+    schema1:about <http://example.org/entity/gpe/asia_pacific_833698432628>,
+        <http://example.org/entity/gpe/europe_feddc61b2704>,
+        <http://example.org/entity/gpe/japan_569cd1db6746>,
+        <http://example.org/entity/org/gartner_3f82483c3d64>,
+        <http://example.org/entity/org/intel_8208f69ab4b9>,
+        <http://example.org/entity/org/lawrence_livermore_national_laboratories_219a3132ee71>,
+        <http://example.org/entity/org/samsung_558d7e5f2f3b>,
+        <http://example.org/entity/org/sony_ericsson_bdafd6ff7dc1>,
+        <http://example.org/entity/org/uk_foreign_office_4233b02ce5e1>,
+        <http://example.org/entity/person/david_bailey_68d8d159badd>,
+        <http://example.org/entity/person/jack_vettriano_0194dce833aa>,
+        <http://example.org/entity/person/nan_goldin_a6f40bec3ab8>,
+        <http://example.org/entity/person/rankin_b0eb11d64df9>,
+        <http://example.org/entity/person/sir_peter_blake_61e05a20dc96>,
+        <http://example.org/entity/person/tracey_emin_64b5616cd781> .
+
+<http://example.org/article/2150> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 2150" ;
+    schema1:about <http://example.org/entity/gpe/huaral_valley_6801f8657151>,
+        <http://example.org/entity/gpe/lima_4be88b64b2cf>,
+        <http://example.org/entity/gpe/peru_39d7a38e0abd>,
+        <http://example.org/entity/org/cepes_4ee268c71d52>,
+        <http://example.org/entity/person/carlos_saldarriaga_2c91023a197a>,
+        <http://example.org/entity/product/bbc_news_website_e114581d8927>,
+        <http://example.org/entity/product/huaral_org_3d54c979c4d6> .
+
+<http://example.org/article/2168> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 2168" ;
+    schema1:about <http://example.org/entity/person/alain_lipietz_c815bbe57ec7>,
+        <http://example.org/entity/person/josep_borrell_1f4eeb61397c>,
+        <http://example.org/entity/person/josé_manuel_barroso_8bc6edcd59cc> .
+
+<http://example.org/article/2175> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 2175" ;
+    schema1:about <http://example.org/entity/gpe/japan_569cd1db6746>,
+        <http://example.org/entity/gpe/uk_fb7612b0df91>,
+        <http://example.org/entity/org/ericsson_d3c061ca45a6>,
+        <http://example.org/entity/person/dr_michael_bjorn_92353f450bf9>,
+        <http://example.org/entity/product/bbc_news_website_e114581d8927> .
+
+<http://example.org/article/2184> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 2184" ;
+    schema1:about <http://example.org/entity/org/bbc_sport_5c7584a66149>,
+        <http://example.org/entity/person/andrew_thompson_891709ff1bb9>,
+        <http://example.org/entity/person/andy_townsend_c1334e380d6c>,
+        <http://example.org/entity/person/piero_della_francesco_d2e85af24734>,
+        <http://example.org/entity/product/piero_468555b85d89> .
+
+<http://example.org/article/2205> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 2205" ;
+    schema1:about <http://example.org/entity/org/argonaut_games_group_145c6011e88c>,
+        <http://example.org/entity/org/david_rubin_partners_035d7cbd5f41>,
+        <http://example.org/entity/org/just_add_monsters_studios_b8586d39dfe0>,
+        <http://example.org/entity/org/morpheme_ccf01e1bf20b>,
+        <http://example.org/entity/person/jez_san_7779736cb56a> .
+
+<http://example.org/article/227> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 227" ;
+    schema1:about <http://example.org/entity/gpe/cambridge_47802d917282>,
+        <http://example.org/entity/gpe/hong_kong_3057bff45cae>,
+        <http://example.org/entity/gpe/japan_569cd1db6746>,
+        <http://example.org/entity/gpe/kings_cross_station_09e542b89f5d>,
+        <http://example.org/entity/gpe/south_korea_a9abca761346>,
+        <http://example.org/entity/org/bbc_2ee757668781>,
+        <http://example.org/entity/org/ofcom_935ca706a8bc>,
+        <http://example.org/entity/person/anne_5008b808ad59>,
+        <http://example.org/entity/person/bill_thompson_de621c83bb43> .
+
+<http://example.org/article/25> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 25" ;
+    schema1:about <http://example.org/entity/org/fujitsu_6155df5047ca>,
+        <http://example.org/entity/org/mitsubishi_5e360440e3bb>,
+        <http://example.org/entity/org/nec_a991cf1ea9df>,
+        <http://example.org/entity/org/ntt_docomo_56c2c5bfa3c6>,
+        <http://example.org/entity/org/rohm_5f70e5a810f5>,
+        <http://example.org/entity/org/sonaptic_1683f9ad4b27>,
+        <http://example.org/entity/org/vodafone_1e880c10ba80>,
+        <http://example.org/entity/org/yamaha_4304b9226d0f>,
+        <http://example.org/entity/person/alastair_sibbald_816bbf52d609>,
+        <http://example.org/entity/person/david_monteith_ea44056d00ac> .
+
+<http://example.org/article/254> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 254" ;
+    schema1:about <http://example.org/entity/org/ibm_b3ecc2949f49>,
+        <http://example.org/entity/org/sony_d10b6a27d1d7>,
+        <http://example.org/entity/org/toshiba_ba6085703295>,
+        <http://example.org/entity/person/ken_kutaragi_316eed10e101>,
+        <http://example.org/entity/product/playstation_3_9df1869c9755> .
+
+<http://example.org/article/277> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 277" ;
+    schema1:about <http://example.org/entity/event/world_of_warcraft_049e148c8134>,
+        <http://example.org/entity/org/microsoft_3d717ffe6ee4>,
+        <http://example.org/entity/person/david_yarnton_7196ea024d7a>,
+        <http://example.org/entity/product/goldeneye_rogue_agent_e4ab8f49e619>,
+        <http://example.org/entity/product/gta_san_andreas_af91da847553>,
+        <http://example.org/entity/product/half_life_2_c85c750cf36c>,
+        <http://example.org/entity/product/halo_2_4a69c7c99241>,
+        <http://example.org/entity/product/killzone_de6dc82b098e>,
+        <http://example.org/entity/product/need_for_speed_underground_c99c7201bd91>,
+        <http://example.org/entity/product/nintendo_ds_7570c7b3753a>,
+        <http://example.org/entity/product/xbox_live_71f0352b5274> .
+
+<http://example.org/article/283> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 283" ;
+    schema1:about <http://example.org/entity/gpe/europeans_3107a602cb87>,
+        <http://example.org/entity/org/apple_3fb9a81f1d5a>,
+        <http://example.org/entity/org/consumers_383cf1fbd120>,
+        <http://example.org/entity/org/jupiter_c26ed6e4d0a7>,
+        <http://example.org/entity/org/jupiter_research_5a7305fc482a>,
+        <http://example.org/entity/person/ian_fogg_507f1925b346>,
+        <http://example.org/entity/product/creative_nomad_jukebox_9a9449af6d09>,
+        <http://example.org/entity/product/ipod_a7fd7d4b9da1> .
+
+<http://example.org/article/292> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 292" ;
+    schema1:about <http://example.org/entity/org/lycos_europe_dc94a7fbb9f7>,
+        <http://example.org/entity/person/graham_cluley_57acda9a11ed>,
+        <http://example.org/entity/product/sophos_54978beeaa83> .
+
+<http://example.org/article/295> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 295" ;
+    schema1:about <http://example.org/entity/gpe/china_bd9d161fc7b2>,
+        <http://example.org/entity/org/chinese_authorities_34a7caab8c1b>,
+        <http://example.org/entity/org/xinhua_news_agency_f320c6a9bee0> .
+
+<http://example.org/article/343> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 343" ;
+    schema1:about <http://example.org/entity/event/photosig_593f4df4657f>,
+        <http://example.org/entity/org/google_772d46fce4cd>,
+        <http://example.org/entity/org/kodak_6084ac413639>,
+        <http://example.org/entity/person/marcus_hawkins_41142a5977e3>,
+        <http://example.org/entity/product/ofoto_de8958275f60>,
+        <http://example.org/entity/product/picasa_78742865fe8e>,
+        <http://example.org/entity/product/pixagogo_5c75f775005e>,
+        <http://example.org/entity/product/snapfish_e80d2fdab1d6> .
+
+<http://example.org/article/352> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 352" ;
+    schema1:about <http://example.org/entity/event/e3_games_expo_8acc92007e9d>,
+        <http://example.org/entity/event/lucid_dream_7ec0e55e85c2>,
+        <http://example.org/entity/gpe/brisbane_a85aa75a81c0>,
+        <http://example.org/entity/gpe/california_8ba957eb8b97>,
+        <http://example.org/entity/gpe/los_angeles_feac120035af>,
+        <http://example.org/entity/gpe/manchester_4a45532773c2>,
+        <http://example.org/entity/gpe/ocean_based_bfaf630d4485>,
+        <http://example.org/entity/org/ea_mobile_0f34a764193a>,
+        <http://example.org/entity/org/electronic_arts_0c21a9a0b79f>,
+        <http://example.org/entity/org/genemation_856f271890ae>,
+        <http://example.org/entity/org/krome_studios_fc97d64b1e0f>,
+        <http://example.org/entity/org/maxis_studio_8e6950af917b>,
+        <http://example.org/entity/org/microsoft_3d717ffe6ee4>,
+        <http://example.org/entity/org/natural_motion_5e6c68c6df3a>,
+        <http://example.org/entity/org/nintendo_f31ffe418b71>,
+        <http://example.org/entity/org/sony_d10b6a27d1d7>,
+        <http://example.org/entity/person/dr_seuss_06b237fa9f1d>,
+        <http://example.org/entity/person/frodo_baggins_f619213fd805>,
+        <http://example.org/entity/person/george_lucas_c592ba677c4e>,
+        <http://example.org/entity/person/james_cameron_ef46f2bc8d6e>,
+        <http://example.org/entity/person/john_batter_02b15e768864>,
+        <http://example.org/entity/person/luke_skywalker_7d682beff9cd>,
+        <http://example.org/entity/person/owain_bennallack_9d542050e036>,
+        <http://example.org/entity/person/robert_walsh_29f0bfbd87a6>,
+        <http://example.org/entity/person/will_wright_ee03a67562fb>,
+        <http://example.org/entity/product/battle_angel_alita_16d76b757b45>,
+        <http://example.org/entity/product/endorphin_v2_0_d3f61328a3ab>,
+        <http://example.org/entity/product/gencrowd_d02180c8a5d3>,
+        <http://example.org/entity/product/sims_games_56fd5927aef4>,
+        <http://example.org/entity/product/spore_866c7b3c4ff2>,
+        <http://example.org/entity/product/xbox_2_826eebfadb3a> .
+
+<http://example.org/article/371> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 371" ;
+    schema1:about <http://example.org/entity/event/hurricane_ivan_c4f98c4e033b>,
+        <http://example.org/entity/gpe/trinidad_and_tobago_feca735e352c>,
+        <http://example.org/entity/org/sri_lankan_television_f2f12ed0f9eb>,
+        <http://example.org/entity/person/clark_boyd_8b02dc6bb2bd>,
+        <http://example.org/entity/person/dan_lane_e8e7a46e8138>,
+        <http://example.org/entity/person/morquendi_449aff2f1afa>,
+        <http://example.org/entity/person/paul_saffo_104fec8d03fe>,
+        <http://example.org/entity/person/sanjaya_senanayake_1b3f62007913>,
+        <http://example.org/entity/person/taran_rampersad_69f7943f20e4> .
+
+<http://example.org/article/372> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 372" ;
+    schema1:about <http://example.org/entity/org/fbi_0f79c3921b9d>,
+        <http://example.org/entity/org/us_department_of_justice_83e2d1a2371b>,
+        <http://example.org/entity/person/michael_chicoine_1460853ee0fe>,
+        <http://example.org/entity/person/william_trowbridge_e073f7bd028b> .
+
+<http://example.org/article/405> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 405" ;
+    schema1:about <http://example.org/entity/org/aol_0f3b459db032>,
+        <http://example.org/entity/org/british_telecom_60a1c616502f>,
+        <http://example.org/entity/org/plusnet_8f92710bcdb6>,
+        <http://example.org/entity/org/uk_online_3724f698af50>,
+        <http://example.org/entity/person/duncan_ingram_2495a723d019> .
+
+<http://example.org/article/428> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 428" ;
+    schema1:about <http://example.org/entity/org/aol_0f3b459db032>,
+        <http://example.org/entity/org/apple_3fb9a81f1d5a>,
+        <http://example.org/entity/org/google_772d46fce4cd>,
+        <http://example.org/entity/org/microsoft_3d717ffe6ee4>,
+        <http://example.org/entity/org/x1_technologies_f2cf2c0cfc96>,
+        <http://example.org/entity/org/yahoo_2799769f9a78>,
+        <http://example.org/entity/person/yusuf_mehdi_594b58f10711>,
+        <http://example.org/entity/product/blinkx_b77e21dac913>,
+        <http://example.org/entity/product/copernic_4b85137866b8>,
+        <http://example.org/entity/product/enfish_cab5df4d35ed>,
+        <http://example.org/entity/product/x_friend_020285f85e75> .
+
+<http://example.org/article/441> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 441" ;
+    schema1:about <http://example.org/entity/org/tata_teleservices_a32a48512e6b>,
+        <http://example.org/entity/person/r_sridharan_83f5bf1a3948>,
+        <http://example.org/entity/product/lightpointe_ba6e54747549> .
+
+<http://example.org/article/447> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 447" ;
+    schema1:about <http://example.org/entity/gpe/britain_a7d190a7ed75>,
+        <http://example.org/entity/gpe/europe_feddc61b2704>,
+        <http://example.org/entity/gpe/france_fdeefd45258f>,
+        <http://example.org/entity/gpe/germany_58c9acdd4350>,
+        <http://example.org/entity/gpe/italy_f54565ccb4e2>,
+        <http://example.org/entity/gpe/spain_31895505c9da>,
+        <http://example.org/entity/gpe/uk_fb7612b0df91>,
+        <http://example.org/entity/org/jupiter_research_5a7305fc482a>,
+        <http://example.org/entity/org/nielsen_netratings_227ebd81eecc>,
+        <http://example.org/entity/person/gabrielle_prior_fad5587ac991> .
+
+<http://example.org/article/464> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 464" ;
+    schema1:about <http://example.org/entity/gpe/argentina_55016c502bb5>,
+        <http://example.org/entity/gpe/bulgaria_fc931bb6f94c>,
+        <http://example.org/entity/gpe/canada_d2483468efb5>,
+        <http://example.org/entity/gpe/estonia_c681f0866eb9>,
+        <http://example.org/entity/gpe/newark_daa740000f34>,
+        <http://example.org/entity/gpe/poland_03bcb80ddd29>,
+        <http://example.org/entity/gpe/surrey_police_station_e47af0ed4574>,
+        <http://example.org/entity/gpe/sweden_99b0d30b756a>,
+        <http://example.org/entity/org/national_hi_tech_crime_unit_0e888ad82b7d>,
+        <http://example.org/entity/org/us_secret_service_13af39439fb1>,
+        <http://example.org/entity/person/anatoly_tyukanov_57cae4138f14>,
+        <http://example.org/entity/person/mick_deats_715042e59460>,
+        <http://example.org/entity/person/scott_christie_7488d41fc53a>,
+        <http://example.org/entity/product/carderplanet_2b8a12c22079>,
+        <http://example.org/entity/product/darkprofits_9aebf71e25a1>,
+        <http://example.org/entity/product/shadowcrew_0a25395199e5> .
+
+<http://example.org/article/474> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 474" ;
+    schema1:about <http://example.org/entity/gpe/uk_fb7612b0df91>,
+        <http://example.org/entity/org/un_telecoms_body_4944692e6412>,
+        <http://example.org/entity/org/us_federal_communications_commission_fcc_f4e17a9b019d>,
+        <http://example.org/entity/person/george_w_bush_3b52adce89e4> .
+
+<http://example.org/article/497> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 497" ;
+    schema1:about <http://example.org/entity/org/aol_0f3b459db032>,
+        <http://example.org/entity/org/google_772d46fce4cd>,
+        <http://example.org/entity/org/microsoft_3d717ffe6ee4>,
+        <http://example.org/entity/org/msn_ae9d5e00dd68>,
+        <http://example.org/entity/person/blake_irving_b3808ea87861> .
+
+<http://example.org/article/513> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 513" ;
+    schema1:about <http://example.org/entity/event/bbc_world_service_programme_go_digital_b3e609769460>,
+        <http://example.org/entity/gpe/cambodia_d341c380ae8c>,
+        <http://example.org/entity/gpe/china_bd9d161fc7b2>,
+        <http://example.org/entity/org/mit_s_media_labs_fa345e745d0f>,
+        <http://example.org/entity/org/nokia_a7883acd7071>,
+        <http://example.org/entity/person/nicholas_negroponte_6a8418e3ce1a>,
+        <http://example.org/entity/product/laptop_pc_2d54c05971c2> .
+
+<http://example.org/article/563> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 563" ;
+    schema1:about <http://example.org/entity/event/sky_plus_f7164f3f1984>,
+        <http://example.org/entity/org/ntl_edc8c4d613f7>,
+        <http://example.org/entity/org/telewest_d3aab6e6ba06>,
+        <http://example.org/entity/person/adam_thomas_d07f59a48258>,
+        <http://example.org/entity/person/eric_tveter_de4188d19827>,
+        <http://example.org/entity/person/philip_snalune_ffc2572a7ec3>,
+        <http://example.org/entity/product/buena_vista_32f6db74cf3c>,
+        <http://example.org/entity/product/columbia_d2fd252b1b4a>,
+        <http://example.org/entity/product/miramax_e71303d11fd7>,
+        <http://example.org/entity/product/sony_pictures_d7165ed4ad40>,
+        <http://example.org/entity/product/touchstone_8bd203d7612b>,
+        <http://example.org/entity/product/walt_disney_cd2887b200bf> .
+
+<http://example.org/article/577> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 577" ;
+    schema1:about <http://example.org/entity/event/cogniron_robotics_project_40da4fee7a64>,
+        <http://example.org/entity/gpe/london_s_science_museum_fd3f77e24658>,
+        <http://example.org/entity/org/bbc_news_online_d439379dfea3>,
+        <http://example.org/entity/org/bbc_world_service_7fbfe21a4ef6>,
+        <http://example.org/entity/org/university_of_hertfordshire_f9a5c669beab>,
+        <http://example.org/entity/person/kerstin_dautenhahn_7d3f98272223> .
+
+<http://example.org/article/590> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 590" ;
+    schema1:about <http://example.org/entity/gpe/britain_a7d190a7ed75>,
+        <http://example.org/entity/gpe/uk_fb7612b0df91>,
+        <http://example.org/entity/org/aol_0f3b459db032>,
+        <http://example.org/entity/org/demos_43e7bd8cb40b>,
+        <http://example.org/entity/org/nielsen_netratings_227ebd81eecc>,
+        <http://example.org/entity/person/john_craig_79ae56361500>,
+        <http://example.org/entity/person/karen_thomson_6c4f2fdeffb7>,
+        <http://example.org/entity/product/broadband_806cba95220a> .
+
+<http://example.org/article/593> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 593" ;
+    schema1:about <http://example.org/entity/gpe/asia_9d1991cd0504>,
+        <http://example.org/entity/gpe/beijing_5d5dea8017c2>,
+        <http://example.org/entity/gpe/china_bd9d161fc7b2>,
+        <http://example.org/entity/gpe/india_1d5c09338f9c>,
+        <http://example.org/entity/gpe/japan_569cd1db6746>,
+        <http://example.org/entity/gpe/singapore_fd836d0855e6>,
+        <http://example.org/entity/gpe/south_korea_a9abca761346>,
+        <http://example.org/entity/org/china_central_television_cctv_58f5a6d4c590>,
+        <http://example.org/entity/org/news_corporation_2873ecd787e1>,
+        <http://example.org/entity/org/sony_pictures_fe3815602153>,
+        <http://example.org/entity/org/state_administration_of_radio_film_and_television_sarft_8fc2f9849ab8>,
+        <http://example.org/entity/org/viacom_a5dd9183a3d9>,
+        <http://example.org/entity/person/jeanne_marie_gescher_c7466af7855b>,
+        <http://example.org/entity/person/li_ruigang_b9026fb25906> .
+
+<http://example.org/article/607> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 607" ;
+    schema1:about <http://example.org/entity/org/apple_3fb9a81f1d5a>,
+        <http://example.org/entity/org/consumer_electronics_association_22a401eeb796>,
+        <http://example.org/entity/org/electronic_frontier_foundation_33bf864703c7>,
+        <http://example.org/entity/org/intel_8208f69ab4b9>,
+        <http://example.org/entity/org/sony_d10b6a27d1d7>,
+        <http://example.org/entity/org/us_supreme_court_cd250c695561>,
+        <http://example.org/entity/product/grokster_d0d168983c45>,
+        <http://example.org/entity/product/morpheus_6e2bf95e2271> .
+
+<http://example.org/article/611> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 611" ;
+    schema1:about <http://example.org/entity/gpe/britain_a7d190a7ed75>,
+        <http://example.org/entity/gpe/uk_fb7612b0df91>,
+        <http://example.org/entity/org/aol_0f3b459db032>,
+        <http://example.org/entity/org/demos_43e7bd8cb40b>,
+        <http://example.org/entity/org/nielsen_netratings_227ebd81eecc>,
+        <http://example.org/entity/person/john_craig_79ae56361500>,
+        <http://example.org/entity/person/karen_thomson_6c4f2fdeffb7>,
+        <http://example.org/entity/product/broadband_806cba95220a> .
+
+<http://example.org/article/618> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 618" ;
+    schema1:about <http://example.org/entity/event/garageband_36255d9ba262>,
+        <http://example.org/entity/event/idvd_db27afe52a96>,
+        <http://example.org/entity/event/imovie_a6d3ea1e6834>,
+        <http://example.org/entity/event/iphoto_9da0236da1fb>,
+        <http://example.org/entity/event/itunes_0112998a3659>,
+        <http://example.org/entity/org/apple_3fb9a81f1d5a>,
+        <http://example.org/entity/org/dell_f2827276f0a7>,
+        <http://example.org/entity/org/jal_8ff4e218f253>,
+        <http://example.org/entity/org/pc_pro_ef412e4f32be>,
+        <http://example.org/entity/person/gavin_cox_97875f950fc8>,
+        <http://example.org/entity/person/nick_ross_a1dfffdded12>,
+        <http://example.org/entity/product/apple_ipod_0b01e30519b6>,
+        <http://example.org/entity/product/ilife_2a192ae11d16>,
+        <http://example.org/entity/product/mac_mini_dc2f7507e348>,
+        <http://example.org/entity/product/mac_os_x_6b5d38b4f3a6>,
+        <http://example.org/entity/product/pc_713e773efae7> .
+
+<http://example.org/article/647> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 647" ;
+    schema1:about <http://example.org/entity/event/sands_of_time_1fcab09f6691>,
+        <http://example.org/entity/person/dahaka_bc535bd9f4db>,
+        <http://example.org/entity/person/empress_of_time_4f115b04ccf9>,
+        <http://example.org/entity/product/prince_of_persia_58c2de73a07b> .
+
+<http://example.org/article/658> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 658" ;
+    schema1:about <http://example.org/entity/org/lycos_europe_dc94a7fbb9f7>,
+        <http://example.org/entity/person/graham_cluley_57acda9a11ed>,
+        <http://example.org/entity/product/sophos_54978beeaa83> .
+
+<http://example.org/article/69> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 69" ;
+    schema1:about <http://example.org/entity/org/aol_0f3b459db032>,
+        <http://example.org/entity/org/google_772d46fce4cd>,
+        <http://example.org/entity/org/microsoft_3d717ffe6ee4>,
+        <http://example.org/entity/org/msn_ae9d5e00dd68>,
+        <http://example.org/entity/person/blake_irving_b3808ea87861> .
+
+<http://example.org/article/702> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 702" ;
+    schema1:about <http://example.org/entity/org/bbc_2ee757668781>,
+        <http://example.org/entity/org/grokster_610a3d31f043>,
+        <http://example.org/entity/org/microsoft_3d717ffe6ee4>,
+        <http://example.org/entity/org/overpeer_a56f985a50c9>,
+        <http://example.org/entity/org/red_swoosh_a1e1200938d6>,
+        <http://example.org/entity/org/sony_d10b6a27d1d7>,
+        <http://example.org/entity/org/streamcast_networks_f103c0cfb7ca>,
+        <http://example.org/entity/person/michael_chicoine_1460853ee0fe>,
+        <http://example.org/entity/person/travis_kalanick_a4032ea3e6a5>,
+        <http://example.org/entity/person/william_trowbridge_e073f7bd028b>,
+        <http://example.org/entity/product/apple_itunes_8728e76b6380>,
+        <http://example.org/entity/product/napster_5b4dce7ff535> .
+
+<http://example.org/article/739> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 739" ;
+    schema1:about <http://example.org/entity/person/david_oblon_d59b0ce25078>,
+        <http://example.org/entity/person/jeremy_jaynes_635d7e4f5b75>,
+        <http://example.org/entity/person/jerry_kilgore_76ecda5a7bf5>,
+        <http://example.org/entity/person/jessica_degroot_668da625c7b3>,
+        <http://example.org/entity/person/richard_rutkowski_3e13a0bf90df>,
+        <http://example.org/entity/person/russell_mcguire_3266d45a8f07> .
+
+<http://example.org/article/840> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 840" ;
+    schema1:about <http://example.org/entity/org/apple_3fb9a81f1d5a>,
+        <http://example.org/entity/org/coral_consortium_fbbda92d5bd1>,
+        <http://example.org/entity/org/electronic_frontier_foundation_33bf864703c7>,
+        <http://example.org/entity/org/intertrust_c4cf0f16b6b9>,
+        <http://example.org/entity/org/jupiter_research_5a7305fc482a>,
+        <http://example.org/entity/org/matsushita_e4f64fd10115>,
+        <http://example.org/entity/org/microsoft_3d717ffe6ee4>,
+        <http://example.org/entity/org/philips_6549c68c00c4>,
+        <http://example.org/entity/org/samsung_558d7e5f2f3b>,
+        <http://example.org/entity/org/sony_d10b6a27d1d7> .
+
+<http://example.org/article/844> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 844" ;
+    schema1:about <http://example.org/entity/gpe/france_fdeefd45258f>,
+        <http://example.org/entity/gpe/uk_fb7612b0df91>,
+        <http://example.org/entity/org/canal_plus_85ad830efb8c>,
+        <http://example.org/entity/org/conseil_superieur_de_l_audiovisuel_csa_0dc344e2e71f>,
+        <http://example.org/entity/org/france_televisions_51517924773e>,
+        <http://example.org/entity/org/nokia_a7883acd7071>,
+        <http://example.org/entity/org/sagem_051ffb0d7edc>,
+        <http://example.org/entity/org/sony_d10b6a27d1d7>,
+        <http://example.org/entity/org/thomson_2f005fc904bd>,
+        <http://example.org/entity/org/tps_1bbbbbd77829>,
+        <http://example.org/entity/person/olivier_gerolami_0bdcd885386e>,
+        <http://example.org/entity/product/freeview_adf6017b484c>,
+        <http://example.org/entity/product/sky_735f14f8dadc>,
+        <http://example.org/entity/product/tnt_df449c542293> .
+
+<http://example.org/article/865> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 865" ;
+    schema1:about <http://example.org/entity/org/niscc_279245ad3e83>,
+        <http://example.org/entity/org/uk_government_54ebbe15217e>,
+        <http://example.org/entity/person/hazel_blears_5247017e54dc>,
+        <http://example.org/entity/person/roger_cumming_43a48f0d999b> .
+
+<http://example.org/article/876> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 876" ;
+    schema1:about <http://example.org/entity/org/ibm_b3ecc2949f49>,
+        <http://example.org/entity/org/sun_cfe4a17fe2e7>,
+        <http://example.org/entity/org/sun_microsystems_7f9b29313622>,
+        <http://example.org/entity/person/jonathan_schwartz_a0cdf9129747> .
+
+<http://example.org/article/878> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 878" ;
+    schema1:about <http://example.org/entity/event/mario_kart_ds_2e217c5d1dc9>,
+        <http://example.org/entity/event/project_rub_27057da201d1>,
+        <http://example.org/entity/event/rayman_ds_c20501052c16>,
+        <http://example.org/entity/event/super_mario_64_ds_338414a16a37>,
+        <http://example.org/entity/org/nintendo_f31ffe418b71>,
+        <http://example.org/entity/org/sony_d10b6a27d1d7>,
+        <http://example.org/entity/person/john_houlihan_a3e75fe3798f>,
+        <http://example.org/entity/person/satoru_iwata_bbef11c7d4bf>,
+        <http://example.org/entity/product/ds_c4b55195c99e>,
+        <http://example.org/entity/product/psp_34030a085f6e> .
+
+<http://example.org/article/904> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 904" ;
+    schema1:about <http://example.org/entity/org/dixons_cb61f5010e21>,
+        <http://example.org/entity/org/sky_d4d8c86db211>,
+        <http://example.org/entity/org/telewest_broadband_fc89472de5e7>,
+        <http://example.org/entity/org/telewest_d3aab6e6ba06>,
+        <http://example.org/entity/person/eric_tveter_de4188d19827>,
+        <http://example.org/entity/product/sky_plus_7adf21c06646> .
+
+<http://example.org/article/930> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 930" ;
+    schema1:about <http://example.org/entity/event/ces_trade_show_727986ab306a>,
+        <http://example.org/entity/org/aol_0f3b459db032>,
+        <http://example.org/entity/org/yahoo_2799769f9a78>,
+        <http://example.org/entity/person/geoff_graber_75baff1b3dc0>,
+        <http://example.org/entity/person/greg_mills_481473fdf77c>,
+        <http://example.org/entity/product/half_life_2_c85c750cf36c>,
+        <http://example.org/entity/product/halo_2_4a69c7c99241>,
+        <http://example.org/entity/product/xbox_68e6f484b95d> .
+
+<http://example.org/article/964> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 964" ;
+    schema1:about <http://example.org/entity/org/email_systems_3a3dcd608aca>,
+        <http://example.org/entity/person/neil_hammerton_ad2ea17ade4d> .
+
+<http://example.org/article/972> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 972" ;
+    schema1:about <http://example.org/entity/event/ces_56a3686242f0>,
+        <http://example.org/entity/gpe/las_vegas_7e686184d30b>,
+        <http://example.org/entity/org/hewlett_packard_6a6a1b2240d1>,
+        <http://example.org/entity/org/intel_8208f69ab4b9>,
+        <http://example.org/entity/person/bill_gates_c4903a5146d3>,
+        <http://example.org/entity/person/gates_49dbcb3286c4>,
+        <http://example.org/entity/person/mr_gates_6971c031bd59>,
+        <http://example.org/entity/product/xbox_68e6f484b95d> .
+
+<http://example.org/article/987> a schema1:NewsArticle ;
+    rdfs:label "BBC tech article 987" ;
+    schema1:about <http://example.org/entity/org/ofcom_935ca706a8bc>,
+        <http://example.org/entity/org/royal_national_institute_for_deaf_people_b312e7915ee0>,
+        <http://example.org/entity/person/guido_gybels_dc8e8309aaec>,
+        <http://example.org/entity/person/robert_currington_6fdb8b7cc00b> .
+
+<http://example.org/entity/event/2001_b0a7622e27c6> a schema1:Event ;
+    rdfs:label "2001" .
+
+<http://example.org/entity/event/2004_fe54db180abb> a schema1:Event ;
+    rdfs:label "2004" .
+
+<http://example.org/entity/event/3gsm_aed17450ed1e> a schema1:Event ;
+    rdfs:label "3gsm" .
+
+<http://example.org/entity/event/astro_wars_a399b43035e3> a schema1:Event ;
+    rdfs:label "astro wars" .
+
+<http://example.org/entity/event/bbc_world_service_programme_go_digital_b3e609769460> a schema1:Event ;
+    rdfs:label "bbc world service programme go digital" .
+
+<http://example.org/entity/event/boingboing_weblog_6a96b170cfb2> a schema1:Event ;
+    rdfs:label "boingboing weblog" .
+
+<http://example.org/entity/event/ces_trade_show_727986ab306a> a schema1:Event ;
+    rdfs:label "ces trade show" .
+
+<http://example.org/entity/event/cogniron_robotics_project_40da4fee7a64> a schema1:Event ;
+    rdfs:label "cogniron robotics project" .
+
+<http://example.org/entity/event/computer_games_8c4cad778638> a schema1:Event ;
+    rdfs:label "computer games" .
+
+<http://example.org/entity/event/cpl_world_tour_9ea5f2c81120> a schema1:Event ;
+    rdfs:label "cpl world tour" .
+
+<http://example.org/entity/event/e3_games_expo_8acc92007e9d> a schema1:Event ;
+    rdfs:label "e3 games expo" .
+
+<http://example.org/entity/event/gadget_market_6f51d606ac63> a schema1:Event ;
+    rdfs:label "gadget market" .
+
+<http://example.org/entity/event/garageband_36255d9ba262> a schema1:Event ;
+    rdfs:label "garageband" .
+
+<http://example.org/entity/event/goldeneye_a7eb7417b01e> a schema1:Event ;
+    rdfs:label "goldeneye" .
+
+<http://example.org/entity/event/gormenghast_f63cd6f60f71> a schema1:Event ;
+    rdfs:label "gormenghast" .
+
+<http://example.org/entity/event/halo_2_268b297e6d5b> a schema1:Event ;
+    rdfs:label "halo 2" .
+
+<http://example.org/entity/event/hurricane_ivan_c4f98c4e033b> a schema1:Event ;
+    rdfs:label "hurricane ivan" .
+
+<http://example.org/entity/event/idvd_db27afe52a96> a schema1:Event ;
+    rdfs:label "idvd" .
+
+<http://example.org/entity/event/imovie_a6d3ea1e6834> a schema1:Event ;
+    rdfs:label "imovie" .
+
+<http://example.org/entity/event/indiana_jones_7b0681dd490a> a schema1:Event ;
+    rdfs:label "indiana jones" .
+
+<http://example.org/entity/event/iphoto_9da0236da1fb> a schema1:Event ;
+    rdfs:label "iphoto" .
+
+<http://example.org/entity/event/itunes_0112998a3659> a schema1:Event ;
+    rdfs:label "itunes" .
+
+<http://example.org/entity/event/longhorn_a53769a636df> a schema1:Event ;
+    rdfs:label "longhorn" .
+
+<http://example.org/entity/event/lord_of_the_rings_cf6086cd8a13> a schema1:Event ;
+    rdfs:label "lord of the rings" .
+
+<http://example.org/entity/event/lucid_dream_7ec0e55e85c2> a schema1:Event ;
+    rdfs:label "lucid dream" .
+
+<http://example.org/entity/event/madonna_s_like_a_virgin_1ccafbfe4c5f> a schema1:Event ;
+    rdfs:label "madonna s like a virgin" .
+
+<http://example.org/entity/event/mario_kart_ds_2e217c5d1dc9> a schema1:Event ;
+    rdfs:label "mario kart ds" .
+
+<http://example.org/entity/event/mobile_equipment_national_database_889e8220b753> a schema1:Event ;
+    rdfs:label "mobile equipment national database" .
+
+<http://example.org/entity/event/nemo_fa8597144c07> a schema1:Event ;
+    rdfs:label "nemo" .
+
+<http://example.org/entity/event/new_media_for_a_new_millennium_nm2_19e274160bbf> a schema1:Event ;
+    rdfs:label "new media for a new millennium (nm2)" .
+
+<http://example.org/entity/event/once_upon_a_time_in_mexico_05b05cf87320> a schema1:Event ;
+    rdfs:label "once upon a time in mexico" .
+
+<http://example.org/entity/event/photosig_593f4df4657f> a schema1:Event ;
+    rdfs:label "photosig" .
+
+<http://example.org/entity/event/project_rub_27057da201d1> a schema1:Event ;
+    rdfs:label "project rub" .
+
+<http://example.org/entity/event/rambo_first_blood_8e2e400902ab> a schema1:Event ;
+    rdfs:label "rambo: first blood" .
+
+<http://example.org/entity/event/rayman_ds_c20501052c16> a schema1:Event ;
+    rdfs:label "rayman ds" .
+
+<http://example.org/entity/event/resident_evil_apocalypse_c560504b5428> a schema1:Event ;
+    rdfs:label "resident evil: apocalypse" .
+
+<http://example.org/entity/event/rsa_security_conference_17d90806ab6d> a schema1:Event ;
+    rdfs:label "rsa security conference" .
+
+<http://example.org/entity/event/sands_of_time_1fcab09f6691> a schema1:Event ;
+    rdfs:label "sands of time" .
+
+<http://example.org/entity/event/sky_plus_f7164f3f1984> a schema1:Event ;
+    rdfs:label "sky plus" .
+
+<http://example.org/entity/event/spider_man_2_a7a5a7421d71> a schema1:Event ;
+    rdfs:label "spider-man 2" .
+
+<http://example.org/entity/event/super_mario_64_ds_338414a16a37> a schema1:Event ;
+    rdfs:label "super mario 64 ds" .
+
+<http://example.org/entity/event/total_recall_833d25fd0194> a schema1:Event ;
+    rdfs:label "total recall" .
+
+<http://example.org/entity/event/troy_b3700aebfce0> a schema1:Event ;
+    rdfs:label "troy" .
+
+<http://example.org/entity/event/world_of_warcraft_049e148c8134> a schema1:Event ;
+    rdfs:label "world of warcraft" .
+
+<http://example.org/entity/gpe/argentina_55016c502bb5> a schema1:Place ;
+    rdfs:label "argentina" .
+
+<http://example.org/entity/gpe/asia_9d1991cd0504> a schema1:Place ;
+    rdfs:label "asia" .
+
+<http://example.org/entity/gpe/asia_pacific_833698432628> a schema1:Place ;
+    rdfs:label "asia pacific" .
+
+<http://example.org/entity/gpe/beijing_5d5dea8017c2> a schema1:Place ;
+    rdfs:label "beijing" .
+
+<http://example.org/entity/gpe/bodleian_library_598dad60d8c1> a schema1:Place ;
+    rdfs:label "bodleian library" .
+
+<http://example.org/entity/gpe/brisbane_a85aa75a81c0> a schema1:Place ;
+    rdfs:label "brisbane" .
+
+<http://example.org/entity/gpe/bulgaria_fc931bb6f94c> a schema1:Place ;
+    rdfs:label "bulgaria" .
+
+<http://example.org/entity/gpe/california_8ba957eb8b97> a schema1:Place ;
+    rdfs:label "california" .
+
+<http://example.org/entity/gpe/cambodia_d341c380ae8c> a schema1:Place ;
+    rdfs:label "cambodia" .
+
+<http://example.org/entity/gpe/canada_d2483468efb5> a schema1:Place ;
+    rdfs:label "canada" .
+
+<http://example.org/entity/gpe/cannes_53917259374d> a schema1:Place ;
+    rdfs:label "cannes" .
+
+<http://example.org/entity/gpe/estonia_c681f0866eb9> a schema1:Place ;
+    rdfs:label "estonia" .
+
+<http://example.org/entity/gpe/europeans_3107a602cb87> a schema1:Place ;
+    rdfs:label "europeans" .
+
+<http://example.org/entity/gpe/fbi_gov_30b27f5d7e4c> a schema1:Place ;
+    rdfs:label "fbi.gov" .
+
+<http://example.org/entity/gpe/huaral_valley_6801f8657151> a schema1:Place ;
+    rdfs:label "huaral valley" .
+
+<http://example.org/entity/gpe/india_1d5c09338f9c> a schema1:Place ;
+    rdfs:label "india" .
+
+<http://example.org/entity/gpe/italy_f54565ccb4e2> a schema1:Place ;
+    rdfs:label "italy" .
+
+<http://example.org/entity/gpe/kings_cross_station_09e542b89f5d> a schema1:Place ;
+    rdfs:label "kings cross station" .
+
+<http://example.org/entity/gpe/las_vegas_7e686184d30b> a schema1:Place ;
+    rdfs:label "las vegas" .
+
+<http://example.org/entity/gpe/lima_4be88b64b2cf> a schema1:Place ;
+    rdfs:label "lima" .
+
+<http://example.org/entity/gpe/london_0d453f931bb5> a schema1:Place ;
+    rdfs:label "london" .
+
+<http://example.org/entity/gpe/london_s_science_museum_fd3f77e24658> a schema1:Place ;
+    rdfs:label "London's Science Museum" .
+
+<http://example.org/entity/gpe/los_angeles_feac120035af> a schema1:Place ;
+    rdfs:label "los angeles" .
+
+<http://example.org/entity/gpe/manchester_4a45532773c2> a schema1:Place ;
+    rdfs:label "manchester" .
+
+<http://example.org/entity/gpe/michigan_university_a0637c4eff5b> a schema1:Place ;
+    rdfs:label "Michigan University" .
+
+<http://example.org/entity/gpe/new_york_public_library_d0478fb14342> a schema1:Place ;
+    rdfs:label "new york public library" .
+
+<http://example.org/entity/gpe/newark_daa740000f34> a schema1:Place ;
+    rdfs:label "newark" .
+
+<http://example.org/entity/gpe/ocean_based_bfaf630d4485> a schema1:Place ;
+    rdfs:label "ocean-based" .
+
+<http://example.org/entity/gpe/omaha_ab478123da5e> a schema1:Place ;
+    rdfs:label "omaha" .
+
+<http://example.org/entity/gpe/peru_39d7a38e0abd> a schema1:Place ;
+    rdfs:label "peru" .
+
+<http://example.org/entity/gpe/pompeii_d1383631d63e> a schema1:Place ;
+    rdfs:label "pompeii" .
+
+<http://example.org/entity/gpe/singapore_fd836d0855e6> a schema1:Place ;
+    rdfs:label "singapore" .
+
+<http://example.org/entity/gpe/spain_31895505c9da> a schema1:Place ;
+    rdfs:label "spain" .
+
+<http://example.org/entity/gpe/stanford_university_181c0def459d> a schema1:Place ;
+    rdfs:label "Stanford University" .
+
+<http://example.org/entity/gpe/surrey_police_station_e47af0ed4574> a schema1:Place ;
+    rdfs:label "surrey police station" .
+
+<http://example.org/entity/gpe/sweden_99b0d30b756a> a schema1:Place ;
+    rdfs:label "sweden" .
+
+<http://example.org/entity/gpe/tate_britain_92a40f3a8eb2> a schema1:Place ;
+    rdfs:label "tate britain" .
+
+<http://example.org/entity/gpe/trinidad_and_tobago_feca735e352c> a schema1:Place ;
+    rdfs:label "trinidad and tobago" .
+
+<http://example.org/entity/gpe/uk_gamers_d0fe1e2f6d61> a schema1:Place ;
+    rdfs:label "uk gamers" .
+
+<http://example.org/entity/gpe/us_713677424dd1> a schema1:Place ;
+    rdfs:label "us" .
+
+<http://example.org/entity/org/2d3_12357a40e83b> a schema1:Organization ;
+    rdfs:label "2d3" .
+
+<http://example.org/entity/org/3_517a83f2d5ff> a schema1:Organization ;
+    rdfs:label "3" .
+
+<http://example.org/entity/org/alcatel_8be7dfaf4275> a schema1:Organization ;
+    rdfs:label "alcatel" .
+
+<http://example.org/entity/org/amazon_com_0c153c498fb6> a schema1:Organization ;
+    rdfs:label "amazon.com" .
+
+<http://example.org/entity/org/arbor_networks_d777f7dd1e6e> a schema1:Organization ;
+    rdfs:label "arbor networks" .
+
+<http://example.org/entity/org/argonaut_games_group_145c6011e88c> a schema1:Organization ;
+    rdfs:label "argonaut games group" .
+
+<http://example.org/entity/org/atari_89acab74ce3d> a schema1:Organization ;
+    rdfs:label "atari" .
+
+<http://example.org/entity/org/bafta_1be1b0e37845> a schema1:Organization ;
+    rdfs:label "bafta" .
+
+<http://example.org/entity/org/bbc_news_7b256a0736ee> a schema1:Organization ;
+    rdfs:label "bbc news" .
+
+<http://example.org/entity/org/bbc_news_online_d439379dfea3> a schema1:Organization ;
+    rdfs:label "bbc news online" .
+
+<http://example.org/entity/org/bbc_news_website_4b58c1e05810> a schema1:Organization ;
+    rdfs:label "bbc news website" .
+
+<http://example.org/entity/org/bbc_sport_5c7584a66149> a schema1:Organization ;
+    rdfs:label "bbc sport" .
+
+<http://example.org/entity/org/bbc_world_service_7fbfe21a4ef6> a schema1:Organization ;
+    rdfs:label "bbc world service" .
+
+<http://example.org/entity/org/bell_canada_f9697aebf08a> a schema1:Organization ;
+    rdfs:label "bell canada" .
+
+<http://example.org/entity/org/black_cabs_88e915be5a85> a schema1:Organization ;
+    rdfs:label "black cabs" .
+
+<http://example.org/entity/org/bullfrog_studios_99a7b8411287> a schema1:Organization ;
+    rdfs:label "bullfrog studios" .
+
+<http://example.org/entity/org/bush_cheney_campaign_3959f27f7084> a schema1:Organization ;
+    rdfs:label "bush-cheney campaign" .
+
+<http://example.org/entity/org/canal_plus_85ad830efb8c> a schema1:Organization ;
+    rdfs:label "canal plus" .
+
+<http://example.org/entity/org/centr_c73723c02221> a schema1:Organization ;
+    rdfs:label "centr" .
+
+<http://example.org/entity/org/cepes_4ee268c71d52> a schema1:Organization ;
+    rdfs:label "cepes" .
+
+<http://example.org/entity/org/china_central_television_cctv_58f5a6d4c590> a schema1:Organization ;
+    rdfs:label "china central television (cctv)" .
+
+<http://example.org/entity/org/chinese_authorities_34a7caab8c1b> a schema1:Organization ;
+    rdfs:label "chinese authorities" .
+
+<http://example.org/entity/org/clearswift_4e7e65748b2d> a schema1:Organization ;
+    rdfs:label "clearswift" .
+
+<http://example.org/entity/org/commodore_e930b4f64460> a schema1:Organization ;
+    rdfs:label "commodore" .
+
+<http://example.org/entity/org/commodore_international_13e81aa04a13> a schema1:Organization ;
+    rdfs:label "commodore international" .
+
+<http://example.org/entity/org/conseil_superieur_de_l_audiovisuel_csa_0dc344e2e71f> a schema1:Organization ;
+    rdfs:label "conseil superieur de l audiovisuel (csa)" .
+
+<http://example.org/entity/org/consumers_383cf1fbd120> a schema1:Organization ;
+    rdfs:label "consumers" .
+
+<http://example.org/entity/org/cornell_university_8e2ca85412d9> a schema1:Organization ;
+    rdfs:label "cornell university" .
+
+<http://example.org/entity/org/cyberathlete_professional_league_4e6ed1444da9> a schema1:Organization ;
+    rdfs:label "cyberathlete professional league" .
+
+<http://example.org/entity/org/david_rubin_partners_035d7cbd5f41> a schema1:Organization ;
+    rdfs:label "david rubin & partners" .
+
+<http://example.org/entity/org/deutsche_telekom_5e3c9f45769c> a schema1:Organization ;
+    rdfs:label "deutsche telekom" .
+
+<http://example.org/entity/org/diamond_multimedia_e243a1eab1db> a schema1:Organization ;
+    rdfs:label "diamond multimedia" .
+
+<http://example.org/entity/org/digital_bridges_f73fca573d70> a schema1:Organization ;
+    rdfs:label "digital bridges" .
+
+<http://example.org/entity/org/dixons_cb61f5010e21> a schema1:Organization ;
+    rdfs:label "dixons" .
+
+<http://example.org/entity/org/dutch_government_58934ce19689> a schema1:Organization ;
+    rdfs:label "dutch government" .
+
+<http://example.org/entity/org/ea_mobile_0f34a764193a> a schema1:Organization ;
+    rdfs:label "ea mobile" .
+
+<http://example.org/entity/org/earthlink_a82a786420cc> a schema1:Organization ;
+    rdfs:label "earthlink" .
+
+<http://example.org/entity/org/ebay_3b34ed95dc86> a schema1:Organization ;
+    rdfs:label "ebay" .
+
+<http://example.org/entity/org/email_systems_3a3dcd608aca> a schema1:Organization ;
+    rdfs:label "email systems" .
+
+<http://example.org/entity/org/emi_aeaef04669e3> a schema1:Organization ;
+    rdfs:label "emi" .
+
+<http://example.org/entity/org/energis_d6a95c494b1b> a schema1:Organization ;
+    rdfs:label "energis" .
+
+<http://example.org/entity/org/eolas_588bb545e65b> a schema1:Organization ;
+    rdfs:label "eolas" .
+
+<http://example.org/entity/org/european_parliament_b3f44aa17b36> a schema1:Organization ;
+    rdfs:label "european parliament" .
+
+<http://example.org/entity/org/eutelsat_256a090d0589> a schema1:Organization ;
+    rdfs:label "EUTELSAT" .
+
+<http://example.org/entity/org/f_secure_c76f7d13ec5e> a schema1:Organization ;
+    rdfs:label "f-secure" .
+
+<http://example.org/entity/org/fbi_s_internet_fraud_complaint_center_b9205c0b98a9> a schema1:Organization ;
+    rdfs:label "FBI's Internet Fraud Complaint Center" .
+
+<http://example.org/entity/org/firms_60b23849f159> a schema1:Organization ;
+    rdfs:label "firms" .
+
+<http://example.org/entity/org/four_kings_clan_ea815bd85987> a schema1:Organization ;
+    rdfs:label "four-kings clan" .
+
+<http://example.org/entity/org/france_televisions_51517924773e> a schema1:Organization ;
+    rdfs:label "france televisions" .
+
+<http://example.org/entity/org/fujitsu_6155df5047ca> a schema1:Organization ;
+    rdfs:label "fujitsu" .
+
+<http://example.org/entity/org/genemation_856f271890ae> a schema1:Organization ;
+    rdfs:label "genemation" .
+
+<http://example.org/entity/org/grokster_610a3d31f043> a schema1:Organization ;
+    rdfs:label "grokster" .
+
+<http://example.org/entity/org/harvard_05cb67bd9d81> a schema1:Organization ;
+    rdfs:label "harvard" .
+
+<http://example.org/entity/org/hewlett_packard_6a6a1b2240d1> a schema1:Organization ;
+    rdfs:label "hewlett packard" .
+
+<http://example.org/entity/org/hitachi_5a71cea0f888> a schema1:Organization ;
+    rdfs:label "hitachi" .
+
+<http://example.org/entity/org/hollywood_042a6094d422> a schema1:Organization ;
+    rdfs:label "hollywood" .
+
+<http://example.org/entity/org/honda_4fd8a96e9762> a schema1:Organization ;
+    rdfs:label "honda" .
+
+<http://example.org/entity/org/instat_mdr_c04ce601b7d7> a schema1:Organization ;
+    rdfs:label "instat/mdr" .
+
+<http://example.org/entity/org/jal_8ff4e218f253> a schema1:Organization ;
+    rdfs:label "jal" .
+
+<http://example.org/entity/org/juri_9b4169cb39ec> a schema1:Organization ;
+    rdfs:label "juri" .
+
+<http://example.org/entity/org/just_add_monsters_studios_b8586d39dfe0> a schema1:Organization ;
+    rdfs:label "just add monsters studios" .
+
+<http://example.org/entity/org/kodak_6084ac413639> a schema1:Organization ;
+    rdfs:label "kodak" .
+
+<http://example.org/entity/org/krome_studios_fc97d64b1e0f> a schema1:Organization ;
+    rdfs:label "krome studios" .
+
+<http://example.org/entity/org/lawrence_livermore_national_laboratories_219a3132ee71> a schema1:Organization ;
+    rdfs:label "lawrence livermore national laboratories" .
+
+<http://example.org/entity/org/leadplex_inc_3ef3ac545006> a schema1:Organization ;
+    rdfs:label "leadplex inc" .
+
+<http://example.org/entity/org/leadplex_llc_7e60acaef250> a schema1:Organization ;
+    rdfs:label "leadplex llc" .
+
+<http://example.org/entity/org/lionhead_studios_b99783d047c5> a schema1:Organization ;
+    rdfs:label "lionhead studios" .
+
+<http://example.org/entity/org/lions_gate_entertainment_e79815b149a3> a schema1:Organization ;
+    rdfs:label "lions gate entertainment" .
+
+<http://example.org/entity/org/mac_format_e68c74f9b4af> a schema1:Organization ;
+    rdfs:label "mac format" .
+
+<http://example.org/entity/org/macrospace_be4ba8d63005> a schema1:Organization ;
+    rdfs:label "macrospace" .
+
+<http://example.org/entity/org/maxis_studio_8e6950af917b> a schema1:Organization ;
+    rdfs:label "maxis studio" .
+
+<http://example.org/entity/org/mcafee_dc39adedb884> a schema1:Organization ;
+    rdfs:label "mcafee" .
+
+<http://example.org/entity/org/mci_2e913f614dc0> a schema1:Organization ;
+    rdfs:label "mci" .
+
+<http://example.org/entity/org/mi6_ff9819ac115c> a schema1:Organization ;
+    rdfs:label "mi6" .
+
+<http://example.org/entity/org/miralab_06a0e5f506c6> a schema1:Organization ;
+    rdfs:label "miralab" .
+
+<http://example.org/entity/org/mirapoint_550d6ee96a8b> a schema1:Organization ;
+    rdfs:label "mirapoint" .
+
+<http://example.org/entity/org/mit_media_labs_europe_2b02456dfbfc> a schema1:Organization ;
+    rdfs:label "mit media labs europe" .
+
+<http://example.org/entity/org/mit_s_media_labs_fa345e745d0f> a schema1:Organization ;
+    rdfs:label "mit s media labs" .
+
+<http://example.org/entity/org/mitsubishi_5e360440e3bb> a schema1:Organization ;
+    rdfs:label "mitsubishi" .
+
+<http://example.org/entity/org/morpheme_ccf01e1bf20b> a schema1:Organization ;
+    rdfs:label "morpheme" .
+
+<http://example.org/entity/org/mozilla_8569b3d2381d> a schema1:Organization ;
+    rdfs:label "mozilla" .
+
+<http://example.org/entity/org/musiwave_269885b5f689> a schema1:Organization ;
+    rdfs:label "musiwave" .
+
+<http://example.org/entity/org/national_hi_tech_crime_unit_0e888ad82b7d> a schema1:Organization ;
+    rdfs:label "national hi-tech crime unit" .
+
+<http://example.org/entity/org/national_theatre_2f5d77977591> a schema1:Organization ;
+    rdfs:label "national theatre" .
+
+<http://example.org/entity/org/natural_motion_5e6c68c6df3a> a schema1:Organization ;
+    rdfs:label "natural motion" .
+
+<http://example.org/entity/org/nec_a991cf1ea9df> a schema1:Organization ;
+    rdfs:label "nec" .
+
+<http://example.org/entity/org/netcraft_f3c010bec585> a schema1:Organization ;
+    rdfs:label "netcraft" .
+
+<http://example.org/entity/org/netscape_9c73568f9fe6> a schema1:Organization ;
+    rdfs:label "netscape" .
+
+<http://example.org/entity/org/new_york_state_department_of_health_ec07bf00f567> a schema1:Organization ;
+    rdfs:label "new york state department of health" .
+
+<http://example.org/entity/org/news_corporation_2873ecd787e1> a schema1:Organization ;
+    rdfs:label "news corporation" .
+
+<http://example.org/entity/org/nomad_digital_afbebc1db7ff> a schema1:Organization ;
+    rdfs:label "nomad digital" .
+
+<http://example.org/entity/org/norwegian_broadcasting_corporation_87421d04d1f1> a schema1:Organization ;
+    rdfs:label "norwegian broadcasting corporation" .
+
+<http://example.org/entity/org/ntl_edc8c4d613f7> a schema1:Organization ;
+    rdfs:label "ntl" .
+
+<http://example.org/entity/org/ntt_83cc628c148d> a schema1:Organization ;
+    rdfs:label "ntt" .
+
+<http://example.org/entity/org/ntt_docomo_56c2c5bfa3c6> a schema1:Organization ;
+    rdfs:label "ntt docomo" .
+
+<http://example.org/entity/org/o2_ddc520955a4f> a schema1:Organization ;
+    rdfs:label "o2" .
+
+<http://example.org/entity/org/onestat_com_d65493c03f82> a schema1:Organization ;
+    rdfs:label "onestat.com" .
+
+<http://example.org/entity/org/overpeer_a56f985a50c9> a schema1:Organization ;
+    rdfs:label "overpeer" .
+
+<http://example.org/entity/org/oxford_d101ee483f8c> a schema1:Organization ;
+    rdfs:label "oxford" .
+
+<http://example.org/entity/org/pantech_303982044f06> a schema1:Organization ;
+    rdfs:label "pantech" .
+
+<http://example.org/entity/org/payperaction_llc_b5f59d4781eb> a schema1:Organization ;
+    rdfs:label "payperaction llc" .
+
+<http://example.org/entity/org/pc_pro_ef412e4f32be> a schema1:Organization ;
+    rdfs:label "pc pro" .
+
+<http://example.org/entity/org/plusnet_8f92710bcdb6> a schema1:Organization ;
+    rdfs:label "plusnet" .
+
+<http://example.org/entity/org/pointsec_d1939a461e1c> a schema1:Organization ;
+    rdfs:label "pointsec" .
+
+<http://example.org/entity/org/red_swoosh_a1e1200938d6> a schema1:Organization ;
+    rdfs:label "red swoosh" .
+
+<http://example.org/entity/org/rohm_5f70e5a810f5> a schema1:Organization ;
+    rdfs:label "rohm" .
+
+<http://example.org/entity/org/royal_national_institute_for_deaf_people_b312e7915ee0> a schema1:Organization ;
+    rdfs:label "royal national institute for deaf people" .
+
+<http://example.org/entity/org/royal_society_9a186c92a127> a schema1:Organization ;
+    rdfs:label "royal society" .
+
+<http://example.org/entity/org/sagem_051ffb0d7edc> a schema1:Organization ;
+    rdfs:label "sagem" .
+
+<http://example.org/entity/org/seagate_87baa8eb5f11> a schema1:Organization ;
+    rdfs:label "seagate" .
+
+<http://example.org/entity/org/sega_a1ad7cbbfe14> a schema1:Organization ;
+    rdfs:label "sega" .
+
+<http://example.org/entity/org/sharp_1bfaae780a0c> a schema1:Organization ;
+    rdfs:label "sharp" .
+
+<http://example.org/entity/org/sky_d4d8c86db211> a schema1:Organization ;
+    rdfs:label "sky" .
+
+<http://example.org/entity/org/sonaptic_1683f9ad4b27> a schema1:Organization ;
+    rdfs:label "sonaptic" .
+
+<http://example.org/entity/org/sony_pictures_fe3815602153> a schema1:Organization ;
+    rdfs:label "sony pictures" .
+
+<http://example.org/entity/org/southern_trains_e3bcf8527e51> a schema1:Organization ;
+    rdfs:label "southern trains" .
+
+<http://example.org/entity/org/sri_lankan_television_f2f12ed0f9eb> a schema1:Organization ;
+    rdfs:label "sri lankan television" .
+
+<http://example.org/entity/org/state_administration_of_radio_film_and_television_sarft_8fc2f9849ab8> a schema1:Organization ;
+    rdfs:label "State Administration of Radio, Film and Television (SARFT)" .
+
+<http://example.org/entity/org/state_university_of_new_york_in_albany_d2ab0e8e1c33> a schema1:Organization ;
+    rdfs:label "state university of new york in albany" .
+
+<http://example.org/entity/org/streamcast_networks_f103c0cfb7ca> a schema1:Organization ;
+    rdfs:label "streamcast networks" .
+
+<http://example.org/entity/org/sun_cfe4a17fe2e7> a schema1:Organization ;
+    rdfs:label "sun" .
+
+<http://example.org/entity/org/sun_microsystems_7f9b29313622> a schema1:Organization ;
+    rdfs:label "sun microsystems" .
+
+<http://example.org/entity/org/symantec_956917283805> a schema1:Organization ;
+    rdfs:label "symantec" .
+
+<http://example.org/entity/org/tata_teleservices_a32a48512e6b> a schema1:Organization ;
+    rdfs:label "tata teleservices" .
+
+<http://example.org/entity/org/telewest_broadband_fc89472de5e7> a schema1:Organization ;
+    rdfs:label "telewest broadband" .
+
+<http://example.org/entity/org/the_radicati_group_7723a06b3293> a schema1:Organization ;
+    rdfs:label "the radicati group" .
+
+<http://example.org/entity/org/thomson_2f005fc904bd> a schema1:Organization ;
+    rdfs:label "thomson" .
+
+<http://example.org/entity/org/thx_371e24c4ca40> a schema1:Organization ;
+    rdfs:label "thx" .
+
+<http://example.org/entity/org/tim_cbc08a112268> a schema1:Organization ;
+    rdfs:label "tim" .
+
+<http://example.org/entity/org/toshiba_ba6085703295> a schema1:Organization ;
+    rdfs:label "toshiba" .
+
+<http://example.org/entity/org/tps_1bbbbbd77829> a schema1:Organization ;
+    rdfs:label "tps" .
+
+<http://example.org/entity/org/trend_micro_ce38e7894065> a schema1:Organization ;
+    rdfs:label "trend micro" .
+
+<http://example.org/entity/org/tulip_computers_889c29aaff11> a schema1:Organization ;
+    rdfs:label "tulip computers" .
+
+<http://example.org/entity/org/uk_foreign_office_4233b02ce5e1> a schema1:Organization ;
+    rdfs:label "UK Foreign Office" .
+
+<http://example.org/entity/org/uk_government_54ebbe15217e> a schema1:Organization ;
+    rdfs:label "uk government" .
+
+<http://example.org/entity/org/uk_online_3724f698af50> a schema1:Organization ;
+    rdfs:label "uk online" .
+
+<http://example.org/entity/org/ukif_eb9e638b6966> a schema1:Organization ;
+    rdfs:label "ukif" .
+
+<http://example.org/entity/org/un_telecoms_body_4944692e6412> a schema1:Organization ;
+    rdfs:label "un telecoms body" .
+
+<http://example.org/entity/org/university_of_hertfordshire_f9a5c669beab> a schema1:Organization ;
+    rdfs:label "university of hertfordshire" .
+
+<http://example.org/entity/org/us_department_of_justice_83e2d1a2371b> a schema1:Organization ;
+    rdfs:label "us department of justice" .
+
+<http://example.org/entity/org/us_federal_bureau_of_investigation_e57be47d798e> a schema1:Organization ;
+    rdfs:label "us federal bureau of investigation" .
+
+<http://example.org/entity/org/us_federal_communications_commission_fcc_f4e17a9b019d> a schema1:Organization ;
+    rdfs:label "us federal communications commission (fcc)" .
+
+<http://example.org/entity/org/us_federal_trade_commission_ftc_0aa0eaa54baf> a schema1:Organization ;
+    rdfs:label "us federal trade commission (ftc)" .
+
+<http://example.org/entity/org/us_magazine_mobile_pc_938e162a2aa3> a schema1:Organization ;
+    rdfs:label "us magazine mobile pc" .
+
+<http://example.org/entity/org/us_secret_service_13af39439fb1> a schema1:Organization ;
+    rdfs:label "us secret service" .
+
+<http://example.org/entity/org/us_supreme_court_cd250c695561> a schema1:Organization ;
+    rdfs:label "us supreme court" .
+
+<http://example.org/entity/org/verisign_eb40e46951ca> a schema1:Organization ;
+    rdfs:label "verisign" .
+
+<http://example.org/entity/org/viacom_a5dd9183a3d9> a schema1:Organization ;
+    rdfs:label "viacom" .
+
+<http://example.org/entity/org/virgin_radio_2b68c9c8c75c> a schema1:Organization ;
+    rdfs:label "virgin radio" .
+
+<http://example.org/entity/org/warner_bros_6ea8afc8f454> a schema1:Organization ;
+    rdfs:label "warner bros" .
+
+<http://example.org/entity/org/webroot_ccacace40571> a schema1:Organization ;
+    rdfs:label "webroot" .
+
+<http://example.org/entity/org/websidestory_60dc83d7f53a> a schema1:Organization ;
+    rdfs:label "websidestory" .
+
+<http://example.org/entity/org/x1_technologies_f2cf2c0cfc96> a schema1:Organization ;
+    rdfs:label "x1 technologies" .
+
+<http://example.org/entity/org/xinhua_news_agency_f320c6a9bee0> a schema1:Organization ;
+    rdfs:label "xinhua news agency" .
+
+<http://example.org/entity/org/yamaha_4304b9226d0f> a schema1:Organization ;
+    rdfs:label "yamaha" .
+
+<http://example.org/entity/org/yeahronimo_media_ventures_6473551a8d42> a schema1:Organization ;
+    rdfs:label "yeahronimo media ventures" .
+
+<http://example.org/entity/person/adam_thomas_d07f59a48258> a foaf:Person ;
+    rdfs:label "adam thomas" .
+
+<http://example.org/entity/person/alain_lipietz_c815bbe57ec7> a foaf:Person ;
+    rdfs:label "alain lipietz" .
+
+<http://example.org/entity/person/alastair_sibbald_816bbf52d609> a foaf:Person ;
+    rdfs:label "alastair sibbald" .
+
+<http://example.org/entity/person/alexander_mcqueen_85b5c1e14d63> a foaf:Person ;
+    rdfs:label "alexander mcqueen" .
+
+<http://example.org/entity/person/alyn_hockey_63acba584fc9> a foaf:Person ;
+    rdfs:label "alyn hockey" .
+
+<http://example.org/entity/person/anatoly_tyukanov_57cae4138f14> a foaf:Person ;
+    rdfs:label "anatoly tyukanov" .
+
+<http://example.org/entity/person/andrew_fisher_65e87bdc1ab8> a foaf:Person ;
+    rdfs:label "andrew fisher" .
+
+<http://example.org/entity/person/andrew_stoddart_7c4a33dc2ce5> a foaf:Person ;
+    rdfs:label "andrew stoddart" .
+
+<http://example.org/entity/person/andrew_thompson_891709ff1bb9> a foaf:Person ;
+    rdfs:label "andrew thompson" .
+
+<http://example.org/entity/person/andy_townsend_c1334e380d6c> a foaf:Person ;
+    rdfs:label "andy townsend" .
+
+<http://example.org/entity/person/anne_5008b808ad59> a foaf:Person ;
+    rdfs:label "anne" .
+
+<http://example.org/entity/person/auric_goldfinger_110d9c5fb39e> a foaf:Person ;
+    rdfs:label "auric goldfinger" .
+
+<http://example.org/entity/person/baroness_susan_greenfield_aed9af33ce85> a foaf:Person ;
+    rdfs:label "baroness susan greenfield" .
+
+<http://example.org/entity/person/bob_larribeau_b54ef462ecb9> a foaf:Person ;
+    rdfs:label "bob larribeau" .
+
+<http://example.org/entity/person/brian_mcbride_cfe26ee10dfc> a foaf:Person ;
+    rdfs:label "brian mcbride" .
+
+<http://example.org/entity/person/carlos_saldarriaga_2c91023a197a> a foaf:Person ;
+    rdfs:label "carlos saldarriaga" .
+
+<http://example.org/entity/person/carolina_milanesi_396a02ac4237> a foaf:Person ;
+    rdfs:label "carolina milanesi" .
+
+<http://example.org/entity/person/chum_313938edfe1c> a foaf:Person ;
+    rdfs:label "chum" .
+
+<http://example.org/entity/person/clark_boyd_8b02dc6bb2bd> a foaf:Person ;
+    rdfs:label "clark boyd" .
+
+<http://example.org/entity/person/dahaka_bc535bd9f4db> a foaf:Person ;
+    rdfs:label "dahaka" .
+
+<http://example.org/entity/person/dan_lane_e8e7a46e8138> a foaf:Person ;
+    rdfs:label "dan lane" .
+
+<http://example.org/entity/person/david_bailey_68d8d159badd> a foaf:Person ;
+    rdfs:label "david bailey" .
+
+<http://example.org/entity/person/david_monteith_ea44056d00ac> a foaf:Person ;
+    rdfs:label "david monteith" .
+
+<http://example.org/entity/person/david_oblon_d59b0ce25078> a foaf:Person ;
+    rdfs:label "david oblon" .
+
+<http://example.org/entity/person/david_yarnton_7196ea024d7a> a foaf:Person ;
+    rdfs:label "david yarnton" .
+
+<http://example.org/entity/person/dennis_mcfarlane_9e17710b3db1> a foaf:Person ;
+    rdfs:label "dennis mcfarlane" .
+
+<http://example.org/entity/person/doug_williams_a82578e6e384> a foaf:Person ;
+    rdfs:label "doug williams" .
+
+<http://example.org/entity/person/dr_no_7df12788dc9e> a foaf:Person ;
+    rdfs:label "Dr. No" .
+
+<http://example.org/entity/person/dr_seuss_06b237fa9f1d> a foaf:Person ;
+    rdfs:label "dr seuss" .
+
+<http://example.org/entity/person/duncan_ingram_2495a723d019> a foaf:Person ;
+    rdfs:label "duncan ingram" .
+
+<http://example.org/entity/person/elizabeth_france_d00f49091e07> a foaf:Person ;
+    rdfs:label "elizabeth france" .
+
+<http://example.org/entity/person/empress_of_time_4f115b04ccf9> a foaf:Person ;
+    rdfs:label "empress of time" .
+
+<http://example.org/entity/person/frodo_baggins_f619213fd805> a foaf:Person ;
+    rdfs:label "frodo baggins" .
+
+<http://example.org/entity/person/gabrielle_prior_fad5587ac991> a foaf:Person ;
+    rdfs:label "gabrielle prior" .
+
+<http://example.org/entity/person/gary_dunn_9108de85e6be> a foaf:Person ;
+    rdfs:label "gary dunn" .
+
+<http://example.org/entity/person/gates_49dbcb3286c4> a foaf:Person ;
+    rdfs:label "gates" ;
+    schema1:about <http://example.org/entity/event/ces_56a3686242f0> ;
+    rdfs:comment "gates opens biggest gadget fair bill gates has opened the consumer electronics show (ces) in las vegas" .
+
+<http://example.org/entity/person/gavin_cox_97875f950fc8> a foaf:Person ;
+    rdfs:label "gavin cox" .
+
+<http://example.org/entity/person/geoff_graber_75baff1b3dc0> a foaf:Person ;
+    rdfs:label "geoff graber" .
+
+<http://example.org/entity/person/george_lucas_c592ba677c4e> a foaf:Person ;
+    rdfs:label "george lucas" .
+
+<http://example.org/entity/person/gerhard_florin_976ee89459b4> a foaf:Person ;
+    rdfs:label "gerhard florin" .
+
+<http://example.org/entity/person/gilles_babinet_ed8389eed350> a foaf:Person ;
+    rdfs:label "gilles babinet" .
+
+<http://example.org/entity/person/grant_dean_85f1b1689fd4> a foaf:Person ;
+    rdfs:label "grant dean" .
+
+<http://example.org/entity/person/greg_abbott_d585fc013012> a foaf:Person ;
+    rdfs:label "greg abbott" .
+
+<http://example.org/entity/person/greg_mills_481473fdf77c> a foaf:Person ;
+    rdfs:label "greg mills" .
+
+<http://example.org/entity/person/guido_gybels_dc8e8309aaec> a foaf:Person ;
+    rdfs:label "guido gybels" .
+
+<http://example.org/entity/person/hazel_blears_5247017e54dc> a foaf:Person ;
+    rdfs:label "hazel blears" .
+
+<http://example.org/entity/person/hugh_grant_27c7d2c40310> a foaf:Person ;
+    rdfs:label "hugh grant" .
+
+<http://example.org/entity/person/ian_fogg_507f1925b346> a foaf:Person ;
+    rdfs:label "ian fogg" .
+
+<http://example.org/entity/person/ian_harris_ddb892d8b883> a foaf:Person ;
+    rdfs:label "ian harris" .
+
+<http://example.org/entity/person/ian_pearson_9bff8cc9c67e> a foaf:Person ;
+    rdfs:label "ian pearson" .
+
+<http://example.org/entity/person/jack_vettriano_0194dce833aa> a foaf:Person ;
+    rdfs:label "jack vettriano" .
+
+<http://example.org/entity/person/james_bond_05c00133acb7> a foaf:Person ;
+    rdfs:label "james bond" .
+
+<http://example.org/entity/person/james_cameron_ef46f2bc8d6e> a foaf:Person ;
+    rdfs:label "james cameron" ;
+    schema1:about <http://example.org/entity/product/battle_angel_alita_16d76b757b45> .
+
+<http://example.org/entity/person/jeanne_marie_gescher_c7466af7855b> a foaf:Person ;
+    rdfs:label "jeanne-marie gescher" .
+
+<http://example.org/entity/person/jemima_khan_cae6db0a6066> a foaf:Person ;
+    rdfs:label "jemima khan" .
+
+<http://example.org/entity/person/jemima_rellie_8d234701430e> a foaf:Person ;
+    rdfs:label "jemima rellie" .
+
+<http://example.org/entity/person/jeremy_jaynes_635d7e4f5b75> a foaf:Person ;
+    rdfs:label "jeremy jaynes" .
+
+<http://example.org/entity/person/jerry_kilgore_76ecda5a7bf5> a foaf:Person ;
+    rdfs:label "jerry kilgore" .
+
+<http://example.org/entity/person/jessica_degroot_668da625c7b3> a foaf:Person ;
+    rdfs:label "jessica degroot" .
+
+<http://example.org/entity/person/jez_san_7779736cb56a> a foaf:Person ;
+    rdfs:label "jez san" .
+
+<http://example.org/entity/person/john_batter_02b15e768864> a foaf:Person ;
+    rdfs:label "john batter" .
+
+<http://example.org/entity/person/john_houlihan_a3e75fe3798f> a foaf:Person ;
+    rdfs:label "john houlihan" .
+
+<http://example.org/entity/person/john_wilkin_3a02902c8b9e> a foaf:Person ;
+    rdfs:label "john wilkin" .
+
+<http://example.org/entity/person/john_wyver_ed7c19ef6f70> a foaf:Person ;
+    rdfs:label "john wyver" .
+
+<http://example.org/entity/person/jonas_guest_428e71e9ae53> a foaf:Person ;
+    rdfs:label "jonas guest" .
+
+<http://example.org/entity/person/jonathan_schwartz_a0cdf9129747> a foaf:Person ;
+    rdfs:label "jonathan schwartz" .
+
+<http://example.org/entity/person/jonathan_wolpaw_25593c166321> a foaf:Person ;
+    rdfs:label "jonathan wolpaw" .
+
+<http://example.org/entity/person/josep_borrell_1f4eeb61397c> a foaf:Person ;
+    rdfs:label "josep borrell" .
+
+<http://example.org/entity/person/josé_manuel_barroso_8bc6edcd59cc> a foaf:Person ;
+    rdfs:label "José Manuel Barroso" .
+
+<http://example.org/entity/person/karl_elsener_4e68abf99981> a foaf:Person ;
+    rdfs:label "karl elsener" .
+
+<http://example.org/entity/person/ken_kutaragi_316eed10e101> a foaf:Person ;
+    rdfs:label "ken kutaragi" .
+
+<http://example.org/entity/person/kerstin_dautenhahn_7d3f98272223> a foaf:Person ;
+    rdfs:label "kerstin dautenhahn" .
+
+<http://example.org/entity/person/kirsten_pfeifer_ec5336b5c32c> a foaf:Person ;
+    rdfs:label "kirsten pfeifer" .
+
+<http://example.org/entity/person/li_ruigang_b9026fb25906> a foaf:Person ;
+    rdfs:label "li ruigang" .
+
+<http://example.org/entity/person/lin_hughes_6e38c6b5241b> a foaf:Person ;
+    rdfs:label "lin hughes" .
+
+<http://example.org/entity/person/luke_skywalker_7d682beff9cd> a foaf:Person ;
+    rdfs:label "luke skywalker" .
+
+<http://example.org/entity/person/madonna_3ec52c707c20> a foaf:Person ;
+    rdfs:label "madonna" .
+
+<http://example.org/entity/person/malcolm_seagrave_6b1d8cbd678f> a foaf:Person ;
+    rdfs:label "malcolm seagrave" .
+
+<http://example.org/entity/person/marcel_nienhuis_569b6a8b365e> a foaf:Person ;
+    rdfs:label "marcel nienhuis" .
+
+<http://example.org/entity/person/marcus_hawkins_41142a5977e3> a foaf:Person ;
+    rdfs:label "marcus hawkins" .
+
+<http://example.org/entity/person/mark_stephen_trotter_1593a899f2da> a foaf:Person ;
+    rdfs:label "mark stephen trotter" .
+
+<http://example.org/entity/person/mervyn_peake_a9fc09ca8e69> a foaf:Person ;
+    rdfs:label "mervyn peake" .
+
+<http://example.org/entity/person/mick_deats_715042e59460> a foaf:Person ;
+    rdfs:label "mick deats" .
+
+<http://example.org/entity/person/mikko_hypponen_0ca1de427c41> a foaf:Person ;
+    rdfs:label "mikko hypponen" .
+
+<http://example.org/entity/person/morquendi_449aff2f1afa> a foaf:Person ;
+    rdfs:label "morquendi" .
+
+<http://example.org/entity/person/mr_gates_6971c031bd59> a foaf:Person ;
+    rdfs:label "mr gates" .
+
+<http://example.org/entity/person/nadia_magnenat_thalman_672ec033ddaa> a foaf:Person ;
+    rdfs:label "nadia magnenat-thalman" .
+
+<http://example.org/entity/person/nan_goldin_a6f40bec3ab8> a foaf:Person ;
+    rdfs:label "nan goldin" .
+
+<http://example.org/entity/person/neil_hammerton_ad2ea17ade4d> a foaf:Person ;
+    rdfs:label "neil hammerton" .
+
+<http://example.org/entity/person/nicholas_negroponte_6a8418e3ce1a> a foaf:Person ;
+    rdfs:label "nicholas negroponte" .
+
+<http://example.org/entity/person/nick_ross_a1dfffdded12> a foaf:Person ;
+    rdfs:label "nick ross" .
+
+<http://example.org/entity/person/niel_ransom_d21ece7ced30> a foaf:Person ;
+    rdfs:label "niel ransom" .
+
+<http://example.org/entity/person/niels_brinkman_1b24ca4d6eeb> a foaf:Person ;
+    rdfs:label "niels brinkman" .
+
+<http://example.org/entity/person/oddjob_c7f58d97f0fc> a foaf:Person ;
+    rdfs:label "oddjob" .
+
+<http://example.org/entity/person/olivier_gerolami_0bdcd885386e> a foaf:Person ;
+    rdfs:label "olivier gerolami" .
+
+<http://example.org/entity/person/owain_bennallack_9d542050e036> a foaf:Person ;
+    rdfs:label "owain bennallack" .
+
+<http://example.org/entity/person/pal_aa5286387342> a foaf:Person ;
+    rdfs:label "pal" .
+
+<http://example.org/entity/person/paul_leclerc_5b95bb3b2040> a foaf:Person ;
+    rdfs:label "paul leclerc" .
+
+<http://example.org/entity/person/paul_randle_9a715175a46c> a foaf:Person ;
+    rdfs:label "paul randle" .
+
+<http://example.org/entity/person/paul_saffo_104fec8d03fe> a foaf:Person ;
+    rdfs:label "paul saffo" .
+
+<http://example.org/entity/person/peter_molyneux_3b56f4e4c2e2> a foaf:Person ;
+    rdfs:label "peter molyneux" .
+
+<http://example.org/entity/person/peter_stollenmayer_e4d49186da2d> a foaf:Person ;
+    rdfs:label "peter stollenmayer" .
+
+<http://example.org/entity/person/philip_snalune_ffc2572a7ec3> a foaf:Person ;
+    rdfs:label "philip snalune" .
+
+<http://example.org/entity/person/philip_wride_72bfbf229252> a foaf:Person ;
+    rdfs:label "philip wride" .
+
+<http://example.org/entity/person/piero_della_francesco_d2e85af24734> a foaf:Person ;
+    rdfs:label "piero della francesco" .
+
+<http://example.org/entity/person/r_sridharan_83f5bf1a3948> a foaf:Person ;
+    rdfs:label "r. sridharan" .
+
+<http://example.org/entity/person/rankin_b0eb11d64df9> a foaf:Person ;
+    rdfs:label "rankin" .
+
+<http://example.org/entity/person/reidar_wasenius_b7831341e6a6> a foaf:Person ;
+    rdfs:label "reidar wasenius" .
+
+<http://example.org/entity/person/rene_obermann_2aa2852f09f2> a foaf:Person ;
+    rdfs:label "rene obermann" .
+
+<http://example.org/entity/person/richard_rutkowski_3e13a0bf90df> a foaf:Person ;
+    rdfs:label "richard rutkowski" .
+
+<http://example.org/entity/person/richard_tateson_db0dc4e90b21> a foaf:Person ;
+    rdfs:label "richard tateson" .
+
+<http://example.org/entity/person/rick_dean_7955bf980b03> a foaf:Person ;
+    rdfs:label "rick dean" .
+
+<http://example.org/entity/person/rob_dwight_9e5c65bd72d9> a foaf:Person ;
+    rdfs:label "rob dwight" .
+
+<http://example.org/entity/person/rob_pollard_2c4c4803c6e6> a foaf:Person ;
+    rdfs:label "rob pollard" .
+
+<http://example.org/entity/person/robert_currington_6fdb8b7cc00b> a foaf:Person ;
+    rdfs:label "robert currington" .
+
+<http://example.org/entity/person/robert_walsh_29f0bfbd87a6> a foaf:Person ;
+    rdfs:label "robert walsh" .
+
+<http://example.org/entity/person/roger_cumming_43a48f0d999b> a foaf:Person ;
+    rdfs:label "roger cumming" ;
+    schema1:worksFor <http://example.org/entity/org/niscc_279245ad3e83> ;
+    rdfs:comment "said roger cumming  director of the national infrastructure security coordination centre (niscc)." .
+
+<http://example.org/entity/person/rory_armes_7347fcb03182> a foaf:Person ;
+    rdfs:label "rory armes" .
+
+<http://example.org/entity/person/russell_mcguire_3266d45a8f07> a foaf:Person ;
+    rdfs:label "russell mcguire" .
+
+<http://example.org/entity/person/ryan_samuel_pitylak_fa01dcf75895> a foaf:Person ;
+    rdfs:label "ryan samuel pitylak" .
+
+<http://example.org/entity/person/sanjaya_senanayake_1b3f62007913> a foaf:Person ;
+    rdfs:label "sanjaya senanayake" .
+
+<http://example.org/entity/person/satoru_iwata_bbef11c7d4bf> a foaf:Person ;
+    rdfs:label "satoru iwata" .
+
+<http://example.org/entity/person/scott_christie_7488d41fc53a> a foaf:Person ;
+    rdfs:label "scott christie" .
+
+<http://example.org/entity/person/scott_stanzel_f00bb0e256a6> a foaf:Person ;
+    rdfs:label "scott stanzel" .
+
+<http://example.org/entity/person/simon_bysshe_9333087949ea> a foaf:Person ;
+    rdfs:label "simon bysshe" .
+
+<http://example.org/entity/person/simon_gardner_8b256fd3c19d> a foaf:Person ;
+    rdfs:label "simon gardner" .
+
+<http://example.org/entity/person/simon_perry_c32f64e2ea81> a foaf:Person ;
+    rdfs:label "simon perry" .
+
+<http://example.org/entity/person/sir_peter_blake_61e05a20dc96> a foaf:Person ;
+    rdfs:label "sir peter blake" .
+
+<http://example.org/entity/person/stephen_dyer_6f2f7fd732e6> a foaf:Person ;
+    rdfs:label "stephen dyer" .
+
+<http://example.org/entity/person/steve_beeks_2beb4c601a5f> a foaf:Person ;
+    rdfs:label "steve beeks" .
+
+<http://example.org/entity/person/steve_jobs_c5375b9ff8a3> a foaf:Person ;
+    rdfs:label "steve jobs" .
+
+<http://example.org/entity/person/steve_taylor_77e6950e1b7f> a foaf:Person ;
+    rdfs:label "steve taylor" .
+
+<http://example.org/entity/person/susan_wojcicki_78000ea8a6ab> a foaf:Person ;
+    rdfs:label "susan wojcicki" .
+
+<http://example.org/entity/person/taran_rampersad_69f7943f20e4> a foaf:Person ;
+    rdfs:label "taran rampersad" .
+
+<http://example.org/entity/person/ted_cohen_d029ce736c95> a foaf:Person ;
+    rdfs:label "ted cohen" .
+
+<http://example.org/entity/person/thomas_husson_eafc5a7a0093> a foaf:Person ;
+    rdfs:label "thomas husson" .
+
+<http://example.org/entity/person/tina_turner_b9d50dd02b66> a foaf:Person ;
+    rdfs:label "tina turner" .
+
+<http://example.org/entity/person/tosihiko_horiuchi_155ad11be91d> a foaf:Person ;
+    rdfs:label "Tosihiko Horiuchi" .
+
+<http://example.org/entity/person/tracey_emin_64b5616cd781> a foaf:Person ;
+    rdfs:label "tracey emin" .
+
+<http://example.org/entity/person/travis_kalanick_a4032ea3e6a5> a foaf:Person ;
+    rdfs:label "travis kalanick" .
+
+<http://example.org/entity/person/urs_holzle_1680fb4cf80d> a foaf:Person ;
+    rdfs:label "urs holzle" .
+
+<http://example.org/entity/person/victor_wong_62db44d68899> a foaf:Person ;
+    rdfs:label "victor wong" .
+
+<http://example.org/entity/person/will_wright_ee03a67562fb> a foaf:Person ;
+    rdfs:label "will wright" .
+
+<http://example.org/entity/person/xenia_onatopp_fadab69b3623> a foaf:Person ;
+    rdfs:label "xenia onatopp" .
+
+<http://example.org/entity/person/yonca_brunini_cac89b868a9d> a foaf:Person ;
+    rdfs:label "yonca brunini" .
+
+<http://example.org/entity/person/yusuf_mehdi_594b58f10711> a foaf:Person ;
+    rdfs:label "yusuf mehdi" .
+
+<http://example.org/entity/product/abacus_78216271ff70> a schema1:Product ;
+    rdfs:label "abacus" .
+
+<http://example.org/entity/product/akamai_95fb3282e181> a schema1:Product ;
+    rdfs:label "akamai" .
+
+<http://example.org/entity/product/apache_web_server_02c5ca85cb3f> a schema1:Product ;
+    rdfs:label "apache web server" .
+
+<http://example.org/entity/product/apple_debacdb0da21> a schema1:Product ;
+    rdfs:label "apple" .
+
+<http://example.org/entity/product/apple_itunes_8728e76b6380> a schema1:Product ;
+    rdfs:label "apple itunes" .
+
+<http://example.org/entity/product/apple_newton_e4e132bcdd8e> a schema1:Product ;
+    rdfs:label "apple newton" .
+
+<http://example.org/entity/product/apple_powerbook_100_da57bebb8b5e> a schema1:Product ;
+    rdfs:label "apple powerbook 100" .
+
+<http://example.org/entity/product/artgarden_20fd63888146> a schema1:Product ;
+    rdfs:label "artgarden" .
+
+<http://example.org/entity/product/asimo_8607ace33e8b> a schema1:Product ;
+    rdfs:label "asimo" .
+
+<http://example.org/entity/product/avg_5e4a0f39a3b0> a schema1:Product ;
+    rdfs:label "avg" .
+
+<http://example.org/entity/product/ball_point_pen_7781f90e3c66> a schema1:Product ;
+    rdfs:label "ball point pen" .
+
+<http://example.org/entity/product/bejewelled_b3811411c8f1> a schema1:Product ;
+    rdfs:label "bejewelled" .
+
+<http://example.org/entity/product/blinkx_b77e21dac913> a schema1:Product ;
+    rdfs:label "blinkx" .
+
+<http://example.org/entity/product/breville_pie_maker_e37846a2cc96> a schema1:Product ;
+    rdfs:label "breville pie maker" .
+
+<http://example.org/entity/product/buena_vista_32f6db74cf3c> a schema1:Product ;
+    rdfs:label "buena vista" .
+
+<http://example.org/entity/product/carderplanet_2b8a12c22079> a schema1:Product ;
+    rdfs:label "carderplanet" .
+
+<http://example.org/entity/product/casio_qv_10_c007e29c2817> a schema1:Product ;
+    rdfs:label "casio qv-10" .
+
+<http://example.org/entity/product/cctv_9254e39727d3> a schema1:Product ;
+    rdfs:label "cctv" .
+
+<http://example.org/entity/product/cdp_101_cd_player_6f9597b818d1> a schema1:Product ;
+    rdfs:label "cdp-101 cd player" .
+
+<http://example.org/entity/product/clockwork_radio_95d705c661e2> a schema1:Product ;
+    rdfs:label "clockwork radio" .
+
+<http://example.org/entity/product/colin_mcrae_rally_ba08d18e6cbc> a schema1:Product ;
+    rdfs:label "colin mcrae rally" .
+
+<http://example.org/entity/product/columbia_d2fd252b1b4a> a schema1:Product ;
+    rdfs:label "columbia" .
+
+<http://example.org/entity/product/copernic_4b85137866b8> a schema1:Product ;
+    rdfs:label "copernic" .
+
+<http://example.org/entity/product/creative_nomad_jukebox_9a9449af6d09> a schema1:Product ;
+    rdfs:label "creative nomad jukebox" .
+
+<http://example.org/entity/product/dab_1f3f841e5768> a schema1:Product ;
+    rdfs:label "dab" .
+
+<http://example.org/entity/product/darkprofits_9aebf71e25a1> a schema1:Product ;
+    rdfs:label "darkprofits" .
+
+<http://example.org/entity/product/digital_cameras_60aa922e8ad0> a schema1:Product ;
+    rdfs:label "digital cameras" .
+
+<http://example.org/entity/product/digital_radio_b9ff7cb46f5a> a schema1:Product ;
+    rdfs:label "digital radio" .
+
+<http://example.org/entity/product/ds_c4b55195c99e> a schema1:Product ;
+    rdfs:label "ds" .
+
+<http://example.org/entity/product/emiew_0198e2e49424> a schema1:Product ;
+    rdfs:label "emiew" .
+
+<http://example.org/entity/product/endorphin_v2_0_d3f61328a3ab> a schema1:Product ;
+    rdfs:label "endorphin v2.0" .
+
+<http://example.org/entity/product/enfish_cab5df4d35ed> a schema1:Product ;
+    rdfs:label "enfish" .
+
+<http://example.org/entity/product/fatal_force_164d41aacf1a> a schema1:Product ;
+    rdfs:label "fatal force" .
+
+<http://example.org/entity/product/firefox_browser_bc195a5af898> a schema1:Product ;
+    rdfs:label "firefox browser" .
+
+<http://example.org/entity/product/fm_050476be5c25> a schema1:Product ;
+    rdfs:label "fm" .
+
+<http://example.org/entity/product/freeview_adf6017b484c> a schema1:Product ;
+    rdfs:label "freeview" ;
+    schema1:about <http://example.org/entity/gpe/uk_fb7612b0df91> ;
+    rdfs:comment "despite the long wait for a french dtt roll-out  the new platform s backers hope to emulate the success of its uk free-to-air counterpart  freeview." .
+
+<http://example.org/entity/product/gameboy_d894f427f736> a schema1:Product ;
+    rdfs:label "gameboy" .
+
+<http://example.org/entity/product/gencrowd_d02180c8a5d3> a schema1:Product ;
+    rdfs:label "gencrowd" .
+
+<http://example.org/entity/product/gnu_linux_operating_system_8c046323ff87> a schema1:Product ;
+    rdfs:label "gnu/linux operating system" .
+
+<http://example.org/entity/product/goldeneye_rogue_agent_e4ab8f49e619> a schema1:Product ;
+    rdfs:label "goldeneye: rogue agent" .
+
+<http://example.org/entity/product/gps_114df23cf996> a schema1:Product ;
+    rdfs:label "gps" .
+
+<http://example.org/entity/product/grokster_d0d168983c45> a schema1:Product ;
+    rdfs:label "grokster" .
+
+<http://example.org/entity/product/gta_san_andreas_af91da847553> a schema1:Product ;
+    rdfs:label "gta: san andreas" .
+
+<http://example.org/entity/product/hdtvs_9eebf0acfee4> a schema1:Product ;
+    rdfs:label "hdtvs" .
+
+<http://example.org/entity/product/hellboy_c26a3e8ea10a> a schema1:Product ;
+    rdfs:label "hellboy" .
+
+<http://example.org/entity/product/house_of_the_dead_f19e5fe17463> a schema1:Product ;
+    rdfs:label "house of the dead" .
+
+<http://example.org/entity/product/huaral_org_3d54c979c4d6> a schema1:Product ;
+    rdfs:label "huaral.org" .
+
+<http://example.org/entity/product/ie7_b72dd6300d7e> a schema1:Product ;
+    rdfs:label "ie7" .
+
+<http://example.org/entity/product/ilife_2a192ae11d16> a schema1:Product ;
+    rdfs:label "ilife" .
+
+<http://example.org/entity/product/ipod_a7fd7d4b9da1> a schema1:Product ;
+    rdfs:label "ipod" .
+
+<http://example.org/entity/product/ipod_shuffle_c7f9f0cae6a7> a schema1:Product ;
+    rdfs:label "ipod shuffle" .
+
+<http://example.org/entity/product/itunes_cc270f68b019> a schema1:Product ;
+    rdfs:label "itunes" .
+
+<http://example.org/entity/product/killzone_de6dc82b098e> a schema1:Product ;
+    rdfs:label "killzone" .
+
+<http://example.org/entity/product/kodak_brownie_camera_ea1c97048c1b> a schema1:Product ;
+    rdfs:label "kodak brownie camera" .
+
+<http://example.org/entity/product/laptop_pc_2d54c05971c2> a schema1:Product ;
+    rdfs:label "laptop pc" .
+
+<http://example.org/entity/product/lightpointe_ba6e54747549> a schema1:Product ;
+    rdfs:label "lightpointe" .
+
+<http://example.org/entity/product/linux_a07f27995032> a schema1:Product ;
+    rdfs:label "linux" .
+
+<http://example.org/entity/product/lunar_lander_7a768353d40f> a schema1:Product ;
+    rdfs:label "lunar lander" .
+
+<http://example.org/entity/product/mac_os_x_6b5d38b4f3a6> a schema1:Product ;
+    rdfs:label "mac os x" .
+
+<http://example.org/entity/product/marine_chronometer_66b15cfbd02b> a schema1:Product ;
+    rdfs:label "marine chronometer" .
+
+<http://example.org/entity/product/metal_slug_be617a8ff853> a schema1:Product ;
+    rdfs:label "metal slug" .
+
+<http://example.org/entity/product/microsoft_709b85e49d62> a schema1:Product ;
+    rdfs:label "microsoft" .
+
+<http://example.org/entity/product/microsoft_outlook_09ff54c22734> a schema1:Product ;
+    rdfs:label "microsoft outlook" .
+
+<http://example.org/entity/product/miramax_e71303d11fd7> a schema1:Product ;
+    rdfs:label "miramax" .
+
+<http://example.org/entity/product/morpheus_6e2bf95e2271> a schema1:Product ;
+    rdfs:label "morpheus" .
+
+<http://example.org/entity/product/motorola_startac_2d8ffe4818af> a schema1:Product ;
+    rdfs:label "motorola startac" .
+
+<http://example.org/entity/product/n_gage_60f544f44b4a> a schema1:Product ;
+    rdfs:label "n-gage" .
+
+<http://example.org/entity/product/need_for_speed_underground_c99c7201bd91> a schema1:Product ;
+    rdfs:label "need for speed: underground" .
+
+<http://example.org/entity/product/net_6ac1d770871b> a schema1:Product ;
+    rdfs:label "net" .
+
+<http://example.org/entity/product/nintendo_ds_7570c7b3753a> a schema1:Product ;
+    rdfs:label "nintendo ds" .
+
+<http://example.org/entity/product/nokia_c832ded63781> a schema1:Product ;
+    rdfs:label "nokia" .
+
+<http://example.org/entity/product/noteboook_pc_cee7ac4cfb68> a schema1:Product ;
+    rdfs:label "noteboook pc" .
+
+<http://example.org/entity/product/ofoto_de8958275f60> a schema1:Product ;
+    rdfs:label "ofoto" .
+
+<http://example.org/entity/product/painkiller_game_c831defaac27> a schema1:Product ;
+    rdfs:label "painkiller game" .
+
+<http://example.org/entity/product/palm_pilot_9305d64e7c9a> a schema1:Product ;
+    rdfs:label "palm pilot" .
+
+<http://example.org/entity/product/paypal_537b8ec6f5c1> a schema1:Product ;
+    rdfs:label "paypal" .
+
+<http://example.org/entity/product/pc_713e773efae7> a schema1:Product ;
+    rdfs:label "pc" .
+
+<http://example.org/entity/product/pez_sweet_dispenser_228718057351> a schema1:Product ;
+    rdfs:label "pez sweet dispenser" .
+
+<http://example.org/entity/product/picasa_78742865fe8e> a schema1:Product ;
+    rdfs:label "picasa" .
+
+<http://example.org/entity/product/piero_468555b85d89> a schema1:Product ;
+    rdfs:label "piero" .
+
+<http://example.org/entity/product/pixagogo_5c75f775005e> a schema1:Product ;
+    rdfs:label "pixagogo" .
+
+<http://example.org/entity/product/pocket_calculator_6810b07ac9ef> a schema1:Product ;
+    rdfs:label "pocket calculator" .
+
+<http://example.org/entity/product/pocket_office_14683723fdbf> a schema1:Product ;
+    rdfs:label "pocket office" .
+
+<http://example.org/entity/product/powerbook_511c1c4f128a> a schema1:Product ;
+    rdfs:label "powerbook" .
+
+<http://example.org/entity/product/prince_of_persia_58c2de73a07b> a schema1:Product ;
+    rdfs:label "prince of persia" .
+
+<http://example.org/entity/product/psion_organiser_series_3_2fc89be54a81> a schema1:Product ;
+    rdfs:label "psion organiser series 3" .
+
+<http://example.org/entity/product/qrio_65dd29feb27c> a schema1:Product ;
+    rdfs:label "qrio" .
+
+<http://example.org/entity/product/retrofone_ff2c27253081> a schema1:Product ;
+    rdfs:label "retrofone" .
+
+<http://example.org/entity/product/ronco_inside_the_shell_egg_scrambler_b3d3e450f0e7> a schema1:Product ;
+    rdfs:label "ronco inside the shell egg scrambler" .
+
+<http://example.org/entity/product/safety_razor_blade_e0bd68799458> a schema1:Product ;
+    rdfs:label "safety razor blade" .
+
+<http://example.org/entity/product/sextant_73df5257b120> a schema1:Product ;
+    rdfs:label "sextant" .
+
+<http://example.org/entity/product/shadowcrew_0a25395199e5> a schema1:Product ;
+    rdfs:label "shadowcrew" .
+
+<http://example.org/entity/product/sims_games_56fd5927aef4> a schema1:Product ;
+    rdfs:label "sims games" .
+
+<http://example.org/entity/product/sinclair_executive_0d7a8fab4753> a schema1:Product ;
+    rdfs:label "sinclair executive" .
+
+<http://example.org/entity/product/sinclair_ql_7627584dd408> a schema1:Product ;
+    rdfs:label "sinclair ql" .
+
+<http://example.org/entity/product/sky_735f14f8dadc> a schema1:Product ;
+    rdfs:label "sky" .
+
+<http://example.org/entity/product/sky_plus_7adf21c06646> a schema1:Product ;
+    rdfs:label "sky plus" .
+
+<http://example.org/entity/product/snake_aa53a613564e> a schema1:Product ;
+    rdfs:label "snake" .
+
+<http://example.org/entity/product/snapfish_e80d2fdab1d6> a schema1:Product ;
+    rdfs:label "snapfish" .
+
+<http://example.org/entity/product/soda_stream_301c8336bdf6> a schema1:Product ;
+    rdfs:label "soda stream" .
+
+<http://example.org/entity/product/sony_pictures_d7165ed4ad40> a schema1:Product ;
+    rdfs:label "sony pictures" .
+
+<http://example.org/entity/product/sony_transistor_radio_d82334d58446> a schema1:Product ;
+    rdfs:label "sony transistor radio" .
+
+<http://example.org/entity/product/sony_walkman_70e5813b11f7> a schema1:Product ;
+    rdfs:label "sony walkman" ;
+    schema1:about <http://example.org/entity/product/mobile_phone_ce4f0482e2a4> ;
+    rdfs:comment "the sony walkman was the first truly portable way of listening to your own music on the move" .
+
+<http://example.org/entity/product/sonyericsson_0241ef64e8a8> a schema1:Product ;
+    rdfs:label "sonyericsson" .
+
+<http://example.org/entity/product/space_invaders_c1086f31e9fe> a schema1:Product ;
+    rdfs:label "space invaders" .
+
+<http://example.org/entity/product/spore_866c7b3c4ff2> a schema1:Product ;
+    rdfs:label "spore" .
+
+<http://example.org/entity/product/sseyo_minimixa_f8167479c147> a schema1:Product ;
+    rdfs:label "sseyo minimixa" .
+
+<http://example.org/entity/product/star_wars_dvd_trilogy_ae5095c56893> a schema1:Product ;
+    rdfs:label "star wars dvd trilogy" .
+
+<http://example.org/entity/product/swiss_army_knife_877928ad02ef> a schema1:Product ;
+    rdfs:label "swiss army knife" .
+
+<http://example.org/entity/product/tamagotchi_e1a621fb13e8> a schema1:Product ;
+    rdfs:label "tamagotchi" .
+
+<http://example.org/entity/product/tandy_100_ae499a65b30d> a schema1:Product ;
+    rdfs:label "tandy 100" .
+
+<http://example.org/entity/product/the_punisher_b2a37826096e> a schema1:Product ;
+    rdfs:label "the punisher" .
+
+<http://example.org/entity/product/tin_opener_94b4139e2902> a schema1:Product ;
+    rdfs:label "tin opener" .
+
+<http://example.org/entity/product/tivo_da6e4f4b1026> a schema1:Product ;
+    rdfs:label "tivo" .
+
+<http://example.org/entity/product/tivo_personal_video_recorder_3277c2b0ac37> a schema1:Product ;
+    rdfs:label "tivo personal video recorder" .
+
+<http://example.org/entity/product/tnt_df449c542293> a schema1:Product ;
+    rdfs:label "tnt" .
+
+<http://example.org/entity/product/too_fast_too_furious_f900c19658bc> a schema1:Product ;
+    rdfs:label "too fast too furious" .
+
+<http://example.org/entity/product/toshiba_libretto_8397f18f604e> a schema1:Product ;
+    rdfs:label "toshiba libretto" .
+
+<http://example.org/entity/product/touchstone_8bd203d7612b> a schema1:Product ;
+    rdfs:label "touchstone" .
+
+<http://example.org/entity/product/vulcan_inc_s_flipstart_efdf1e947c7a> a schema1:Product ;
+    rdfs:label "vulcan inc s flipstart" .
+
+<http://example.org/entity/product/walt_disney_cd2887b200bf> a schema1:Product ;
+    rdfs:label "walt disney" .
+
+<http://example.org/entity/product/wristwatch_1c51cca93ed4> a schema1:Product ;
+    rdfs:label "wristwatch" .
+
+<http://example.org/entity/product/x_friend_020285f85e75> a schema1:Product ;
+    rdfs:label "x-friend" .
+
+<http://example.org/entity/product/xbox_games_console_cdfc6d1bd3b1> a schema1:Product ;
+    rdfs:label "xbox games console" .
+
+<http://example.org/entity/product/xbox_live_71f0352b5274> a schema1:Product ;
+    rdfs:label "xbox live" .
+
+<http://example.org/entity/product/xenon_816a9008c9ef> a schema1:Product ;
+    rdfs:label "xenon" .
+
+<http://example.org/entity/product/xxx_c6c047f042a2> a schema1:Product ;
+    rdfs:label "xxx" .
+
+<http://example.org/entity/product/zafi_d_a38cff04289b> a schema1:Product ;
+    rdfs:label "zafi.d" .
+
+<http://example.org/entity/product/zenith_remote_control_fda44bc336ee> a schema1:Product ;
+    rdfs:label "zenith remote control" .
+
+<http://example.org/entity/product/zonealarm_d534dc1a07c0> a schema1:Product ;
+    rdfs:label "zonealarm" .
+
+<http://example.org/entity/event/bbc_news_website_be214b621ab4> a schema1:Event ;
+    rdfs:label "bbc news website" .
+
+<http://example.org/entity/event/digital_tv_lifestyle_f6df2eda450c> a schema1:Event ;
+    rdfs:label "digital tv lifestyle" .
+
+<http://example.org/entity/gpe/cambridge_47802d917282> a schema1:Place ;
+    rdfs:label "cambridge" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q49111> .
+
+<http://example.org/entity/gpe/france_fdeefd45258f> a schema1:Place ;
+    rdfs:label "france" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q142> .
+
+<http://example.org/entity/gpe/germany_58c9acdd4350> a schema1:Place ;
+    rdfs:label "germany" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q183> .
+
+<http://example.org/entity/gpe/hong_kong_3057bff45cae> a schema1:Place ;
+    rdfs:label "hong kong" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q8646> .
+
+<http://example.org/entity/org/ask_jeeves_7bf3fc2d1343> a schema1:Organization ;
+    rdfs:label "ask jeeves" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q28149510> .
+
+<http://example.org/entity/org/consumer_electronics_association_22a401eeb796> a schema1:Organization ;
+    rdfs:label "consumer electronics association" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1128415> .
+
+<http://example.org/entity/org/coral_consortium_fbbda92d5bd1> a schema1:Organization ;
+    rdfs:label "coral consortium" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5169453> .
+
+<http://example.org/entity/org/dell_f2827276f0a7> a schema1:Organization ;
+    rdfs:label "dell" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q30873> .
+
+<http://example.org/entity/org/demos_43e7bd8cb40b> a schema1:Organization ;
+    rdfs:label "demos" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q37008247> .
+
+<http://example.org/entity/org/ericsson_d3c061ca45a6> a schema1:Organization ;
+    rdfs:label "ericsson" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q52618> .
+
+<http://example.org/entity/org/fbi_0f79c3921b9d> a schema1:Organization ;
+    rdfs:label "fbi" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q42301907> .
+
+<http://example.org/entity/org/icstis_fbcb2d9e0ca0> a schema1:Organization ;
+    rdfs:label "icstis" .
+
+<http://example.org/entity/org/intertrust_c4cf0f16b6b9> a schema1:Organization ;
+    rdfs:label "intertrust" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q19926580> .
+
+<http://example.org/entity/org/jupiter_c26ed6e4d0a7> a schema1:Organization ;
+    rdfs:label "jupiter" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q37530492> .
+
+<http://example.org/entity/org/lycos_europe_dc94a7fbb9f7> a schema1:Organization ;
+    rdfs:label "lycos europe" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q329120> .
+
+<http://example.org/entity/org/matsushita_e4f64fd10115> a schema1:Organization ;
+    rdfs:label "matsushita" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q23304435> .
+
+<http://example.org/entity/org/motorola_f8cdcf80b8e9> a schema1:Organization ;
+    rdfs:label "motorola" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q259011> .
+
+<http://example.org/entity/org/niscc_279245ad3e83> a schema1:Organization ;
+    rdfs:label "niscc" .
+
+<http://example.org/entity/org/ofcom_935ca706a8bc> a schema1:Organization ;
+    rdfs:label "ofcom" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1529532> .
+
+<http://example.org/entity/org/orange_0fcc3e58ab93> a schema1:Organization ;
+    rdfs:label "orange" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1431486> .
+
+<http://example.org/entity/org/philips_6549c68c00c4> a schema1:Organization ;
+    rdfs:label "philips" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q89438875> .
+
+<http://example.org/entity/org/pyra_labs_ef96472b231a> a schema1:Organization ;
+    rdfs:label "pyra labs" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2737647> .
+
+<http://example.org/entity/org/sophos_576613a10110> a schema1:Organization ;
+    rdfs:label "sophos" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1934568> .
+
+<http://example.org/entity/org/t_mobile_ce5b498c419d> a schema1:Organization ;
+    rdfs:label "t-mobile" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q327634> .
+
+<http://example.org/entity/org/telewest_d3aab6e6ba06> a schema1:Organization ;
+    rdfs:label "telewest" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7697173> .
+
+<http://example.org/entity/person/blake_irving_b3808ea87861> a foaf:Person ;
+    rdfs:label "blake irving" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16730064> .
+
+<http://example.org/entity/person/dr_michael_bjorn_92353f450bf9> a foaf:Person ;
+    rdfs:label "dr michael bjorn" .
+
+<http://example.org/entity/person/eric_tveter_de4188d19827> a foaf:Person ;
+    rdfs:label "eric tveter" .
+
+<http://example.org/entity/person/gavin_patterson_b2bf5309cbf2> a foaf:Person ;
+    rdfs:label "gavin patterson" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15990217> .
+
+<http://example.org/entity/person/george_w_bush_3b52adce89e4> a foaf:Person ;
+    rdfs:label "george w bush" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q207> .
+
+<http://example.org/entity/person/jim_lanzone_0cd450e545b2> a foaf:Person ;
+    rdfs:label "jim lanzone" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6196306> .
+
+<http://example.org/entity/person/john_craig_79ae56361500> a foaf:Person ;
+    rdfs:label "john craig" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q124855423> .
+
+<http://example.org/entity/person/karen_thomson_6c4f2fdeffb7> a foaf:Person ;
+    rdfs:label "karen thomson" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q96050779> .
+
+<http://example.org/entity/person/michael_chicoine_1460853ee0fe> a foaf:Person ;
+    rdfs:label "michael chicoine" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q62639610> .
+
+<http://example.org/entity/person/william_trowbridge_e073f7bd028b> a foaf:Person ;
+    rdfs:label "william trowbridge" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q107148712> .
+
+<http://example.org/entity/product/amazon_013651415001> a schema1:Product ;
+    rdfs:label "amazon" .
+
+<http://example.org/entity/product/battle_angel_alita_16d76b757b45> a schema1:Product ;
+    rdfs:label "battle angel alita" .
+
+<http://example.org/entity/product/blogger_7dcd79065f74> a schema1:Product ;
+    rdfs:label "blogger" .
+
+<http://example.org/entity/product/bloglines_b2941453db6e> a schema1:Product ;
+    rdfs:label "bloglines" .
+
+<http://example.org/entity/product/broadband_806cba95220a> a schema1:Product ;
+    rdfs:label "broadband" ;
+    schema1:about <http://example.org/entity/gpe/britain_a7d190a7ed75> ;
+    rdfs:comment "a quarter of broadband users in britain regularly upload content and have personal sites",
+        "more than five million households in the uk have broadband and that number is growing fast." .
+
+<http://example.org/entity/product/firefox_d75723c827db> a schema1:Product ;
+    rdfs:label "firefox" .
+
+<http://example.org/entity/product/laptop_b40751ccbca2> a schema1:Product ;
+    rdfs:label "laptop" .
+
+<http://example.org/entity/product/mobile_phone_ce4f0482e2a4> a schema1:Product ;
+    rdfs:label "mobile phone" .
+
+<http://example.org/entity/product/napster_5b4dce7ff535> a schema1:Product ;
+    rdfs:label "napster" .
+
+<http://example.org/entity/product/psp_34030a085f6e> a schema1:Product ;
+    rdfs:label "psp" .
+
+<http://example.org/entity/product/sophos_54978beeaa83> a schema1:Product ;
+    rdfs:label "sophos" .
+
+<http://example.org/entity/product/xbox_2_826eebfadb3a> a schema1:Product ;
+    rdfs:label "xbox 2" .
+
+<http://example.org/entity/event/ces_56a3686242f0> a schema1:Event ;
+    rdfs:label "ces" .
+
+<http://example.org/entity/gpe/china_bd9d161fc7b2> a schema1:Place ;
+    rdfs:label "china" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q29520> .
+
+<http://example.org/entity/gpe/europe_feddc61b2704> a schema1:Place ;
+    rdfs:label "europe" ;
+    schema1:about <http://example.org/entity/event/digital_tv_lifestyle_f6df2eda450c> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q46> .
+
+<http://example.org/entity/gpe/poland_03bcb80ddd29> a schema1:Place ;
+    rdfs:label "poland" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q36> .
+
+<http://example.org/entity/gpe/south_korea_a9abca761346> a schema1:Place ;
+    rdfs:label "south korea" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q884> .
+
+<http://example.org/entity/org/electronic_arts_0c21a9a0b79f> a schema1:Organization ;
+    rdfs:label "electronic arts" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q173941> .
+
+<http://example.org/entity/org/electronic_frontier_foundation_33bf864703c7> a schema1:Organization ;
+    rdfs:label "electronic frontier foundation" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q624023> .
+
+<http://example.org/entity/org/european_union_d99c115708c1> a schema1:Organization ;
+    rdfs:label "european union" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q458> .
+
+<http://example.org/entity/org/gartner_3f82483c3d64> a schema1:Organization ;
+    rdfs:label "gartner" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q174198> .
+
+<http://example.org/entity/org/ibm_b3ecc2949f49> a schema1:Organization ;
+    rdfs:label "ibm" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1848471> .
+
+<http://example.org/entity/org/nielsen_netratings_227ebd81eecc> a schema1:Organization ;
+    rdfs:label "nielsen//netratings" .
+
+<http://example.org/entity/org/sony_ericsson_bdafd6ff7dc1> a schema1:Organization ;
+    rdfs:label "sony ericsson" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q606942> .
+
+<http://example.org/entity/org/vodafone_1e880c10ba80> a schema1:Organization ;
+    rdfs:label "vodafone" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q122141> .
+
+<http://example.org/entity/person/bill_thompson_de621c83bb43> a foaf:Person ;
+    rdfs:label "bill thompson" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2450732> .
+
+<http://example.org/entity/person/graham_cluley_57acda9a11ed> a foaf:Person ;
+    rdfs:label "graham cluley" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5592727> .
+
+<http://example.org/entity/product/apple_ipod_0b01e30519b6> a schema1:Product ;
+    rdfs:label "apple ipod" .
+
+<http://example.org/entity/product/half_life_2_c85c750cf36c> a schema1:Product ;
+    rdfs:label "half-life 2" .
+
+<http://example.org/entity/product/halo_2_4a69c7c99241> a schema1:Product ;
+    rdfs:label "halo 2" .
+
+<http://example.org/entity/product/internet_explorer_c4c2abe0f12c> a schema1:Product ;
+    rdfs:label "internet explorer" .
+
+<http://example.org/entity/product/mac_mini_dc2f7507e348> a schema1:Product ;
+    rdfs:label "mac mini" ;
+    schema1:about <http://example.org/entity/product/apple_ipod_0b01e30519b6> ;
+    rdfs:comment "especially pc users who have used an apple ipod." .
+
+<http://example.org/entity/product/playstation_3_9df1869c9755> a schema1:Product ;
+    rdfs:label "playstation 3" .
+
+<http://example.org/entity/gpe/britain_a7d190a7ed75> a schema1:Place ;
+    rdfs:label "britain" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q37554962> .
+
+<http://example.org/entity/org/intel_8208f69ab4b9> a schema1:Organization ;
+    rdfs:label "intel" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q248> .
+
+<http://example.org/entity/org/jupiter_research_5a7305fc482a> a schema1:Organization ;
+    rdfs:label "jupiter research" .
+
+<http://example.org/entity/org/msn_ae9d5e00dd68> a schema1:Organization ;
+    rdfs:label "msn" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q17152690> .
+
+<http://example.org/entity/org/nintendo_f31ffe418b71> a schema1:Organization ;
+    rdfs:label "nintendo" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q8093> .
+
+<http://example.org/entity/org/samsung_558d7e5f2f3b> a schema1:Organization ;
+    rdfs:label "samsung" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q124989916> .
+
+<http://example.org/entity/product/bbc_news_website_e114581d8927> a schema1:Product ;
+    rdfs:label "bbc news website" .
+
+<http://example.org/entity/product/xbox_68e6f484b95d> a schema1:Product ;
+    rdfs:label "xbox" .
+
+<http://example.org/entity/org/nokia_a7883acd7071> a schema1:Organization ;
+    rdfs:label "nokia" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1418> .
+
+<http://example.org/entity/org/yahoo_2799769f9a78> a schema1:Organization ;
+    rdfs:label "yahoo" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q37093> .
+
+<http://example.org/entity/gpe/japan_569cd1db6746> a schema1:Place ;
+    rdfs:label "japan" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q17> .
+
+<http://example.org/entity/org/bbc_2ee757668781> a schema1:Organization ;
+    rdfs:label "bbc" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q9531> .
+
+<http://example.org/entity/person/bill_gates_c4903a5146d3> a foaf:Person ;
+    rdfs:label "bill gates" ;
+    schema1:worksFor <http://example.org/entity/org/microsoft_3d717ffe6ee4> ;
+    rdfs:comment "the announcement about internet explorer was made by bill gates  microsoft chairman and chief software architect" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5284> .
+
+<http://example.org/entity/org/aol_0f3b459db032> a schema1:Organization ;
+    rdfs:label "aol" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q27585> .
+
+<http://example.org/entity/org/british_telecom_60a1c616502f> a schema1:Organization ;
+    rdfs:label "british telecom" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4971142> .
+
+<http://example.org/entity/gpe/uk_fb7612b0df91> a schema1:Place ;
+    rdfs:label "uk" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q145> .
+
+<http://example.org/entity/org/google_772d46fce4cd> a schema1:Organization ;
+    rdfs:label "google" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q95> .
+
+<http://example.org/entity/org/apple_3fb9a81f1d5a> a schema1:Organization ;
+    rdfs:label "apple" ;
+    schema1:about <http://example.org/entity/product/laptop_b40751ccbca2>,
+        <http://example.org/entity/product/mac_mini_dc2f7507e348> ;
+    rdfs:comment "the mac mini is the cheapest apple computer ever." ;
+    owl:sameAs <http://www.wikidata.org/entity/Q89> .
+
+<http://example.org/entity/org/sony_d10b6a27d1d7> a schema1:Organization ;
+    rdfs:label "sony" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q65177437> .
+
+<http://example.org/entity/org/microsoft_3d717ffe6ee4> a schema1:Organization ;
+    rdfs:label "microsoft" ;
+    schema1:about <http://example.org/entity/product/internet_explorer_c4c2abe0f12c>,
+        <http://example.org/entity/product/xbox_68e6f484b95d> ;
+    rdfs:comment "details of the next generation of microsoft s xbox games console",
+        "security scares spark browser fix microsoft is working on a new version of its internet explorer web browser." ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2283> .
+

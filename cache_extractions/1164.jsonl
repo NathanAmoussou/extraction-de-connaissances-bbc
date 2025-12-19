@@ -1,0 +1,1 @@
+{"entities": [{"mention": "bt", "type": "ORG", "start": 0, "end": 2}, {"mention": "icstis", "type": "ORG", "start": 732, "end": 738}, {"mention": "gavin patterson", "type": "PERSON", "start": 2331, "end": 2346}, {"mention": "bbc news website", "type": "EVENT", "start": 925, "end": 941}], "relations": []}

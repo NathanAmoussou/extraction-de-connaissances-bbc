@@ -1,0 +1,1 @@
+{"entities": [{"mention": "gartner", "type": "ORG", "start": 135, "end": 142}, {"mention": "carolina milanesi", "type": "PERSON", "start": 803, "end": 820}, {"mention": "motorola", "type": "ORG", "start": 2203, "end": 2211}, {"mention": "apple", "type": "ORG", "start": 3180, "end": 3185}, {"mention": "sony ericsson", "type": "ORG", "start": 2975, "end": 2988}], "relations": []}

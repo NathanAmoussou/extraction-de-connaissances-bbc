@@ -1,0 +1,1 @@
+{"entities": [{"mention": "google", "type": "ORG", "start": 377, "end": 383}, {"mention": "microsoft", "type": "ORG", "start": 685, "end": 694}, {"mention": "yahoo", "type": "ORG", "start": 699, "end": 704}, {"mention": "yonca brunini", "type": "PERSON", "start": 820, "end": 833}, {"mention": "urs holzle", "type": "PERSON", "start": 1291, "end": 1301}], "relations": []}

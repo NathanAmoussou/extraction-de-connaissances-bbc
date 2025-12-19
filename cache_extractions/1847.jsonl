@@ -1,0 +1,1 @@
+{"entities": [{"mention": "victor wong", "type": "PERSON", "start": 144, "end": 155}, {"mention": "hong kong", "type": "GPE", "start": 181, "end": 190}, {"mention": "cornell university", "type": "ORG", "start": 203, "end": 221}, {"mention": "bbc news website", "type": "ORG", "start": 837, "end": 853}], "relations": []}

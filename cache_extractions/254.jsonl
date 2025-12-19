@@ -1,0 +1,1 @@
+{"entities": [{"mention": "sony", "type": "ORG", "start": 65, "end": 69}, {"mention": "ibm", "type": "ORG", "start": 113, "end": 116}, {"mention": "toshiba", "type": "ORG", "start": 121, "end": 128}, {"mention": "playstation 3", "type": "PRODUCT", "start": 14, "end": 27}, {"mention": "ken kutaragi", "type": "PERSON", "start": 1818, "end": 1830}], "relations": []}

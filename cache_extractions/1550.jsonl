@@ -1,0 +1,1 @@
+{"entities": [{"mention": "bill thompson", "type": "PERSON", "start": 99, "end": 112}, {"mention": "intel", "type": "ORG", "start": 354, "end": 359}, {"mention": "cambridge", "type": "GPE", "start": 248, "end": 257}, {"mention": "apple", "type": "ORG", "start": 2617, "end": 2622}, {"mention": "bbc", "type": "ORG", "start": 4014, "end": 4017}], "relations": []}

@@ -1,0 +1,1 @@
+{"entities": [{"mention": "europe", "type": "GPE", "start": 0, "end": 6}, {"mention": "digital tv lifestyle", "type": "EVENT", "start": 13, "end": 33}, {"mention": "simon perry", "type": "PERSON", "start": 2642, "end": 2653}], "relations": [{"subj": "europe", "pred": "schema:about", "obj": "digital tv lifestyle", "evidence": ""}]}

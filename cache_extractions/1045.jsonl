@@ -1,0 +1,1 @@
+{"entities": [{"mention": "stephen dyer", "type": "PERSON", "start": 706, "end": 718}, {"mention": "ukif", "type": "ORG", "start": 349, "end": 353}, {"mention": "paypal", "type": "PRODUCT", "start": 1088, "end": 1094}, {"mention": "verisign", "type": "ORG", "start": 1507, "end": 1515}, {"mention": "centr", "type": "ORG", "start": 2476, "end": 2481}], "relations": []}

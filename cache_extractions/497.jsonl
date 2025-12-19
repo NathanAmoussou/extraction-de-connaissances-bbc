@@ -1,0 +1,1 @@
+{"entities": [{"mention": "microsoft", "type": "ORG", "start": 0, "end": 9}, {"mention": "google", "type": "ORG", "start": 257, "end": 263}, {"mention": "aol", "type": "ORG", "start": 268, "end": 271}, {"mention": "msn", "type": "ORG", "start": 199, "end": 202}, {"mention": "blake irving", "type": "PERSON", "start": 771, "end": 783}], "relations": []}

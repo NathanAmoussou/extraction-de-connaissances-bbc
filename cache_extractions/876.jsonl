@@ -1,0 +1,1 @@
+{"entities": [{"mention": "sun", "type": "ORG", "start": 0, "end": 3}, {"mention": "sun microsystems", "type": "ORG", "start": 34, "end": 50}, {"mention": "jonathan schwartz", "type": "PERSON", "start": 634, "end": 651}, {"mention": "ibm", "type": "ORG", "start": 1701, "end": 1704}], "relations": []}

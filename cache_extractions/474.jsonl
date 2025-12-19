@@ -1,0 +1,1 @@
+{"entities": [{"mention": "george w bush", "type": "PERSON", "start": 513, "end": 526}, {"mention": "us federal communications commission (fcc)", "type": "ORG", "start": 218, "end": 260}, {"mention": "un telecoms body", "type": "ORG", "start": 446, "end": 462}, {"mention": "uk", "type": "GPE", "start": 968, "end": 970}], "relations": []}

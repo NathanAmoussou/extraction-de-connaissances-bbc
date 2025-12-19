@@ -1,0 +1,1 @@
+{"entities": [{"mention": "andrew fisher", "type": "PERSON", "start": 140, "end": 153}, {"mention": "omaha", "type": "GPE", "start": 160, "end": 165}, {"mention": "ebay", "type": "ORG", "start": 133, "end": 137}, {"mention": "bbc", "type": "ORG", "start": 362, "end": 365}], "relations": []}
